@@ -23,3 +23,4 @@ Parts of the content of this course are based on: Holmstrand, K.F., den Boer, S.
 
 This website is made using [Quarto](https://quarto.org/) Allaire, J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (Version 0.3) \[Computer software\]. <https://doi.org/10.5281/zenodo.5960048> and a [website template](https://github.com/jtr13/website-template).
 
+Scriberia Images are made for The Turing Way project. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)

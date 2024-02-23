@@ -10,7 +10,7 @@ This course provides PhD candidates with the essential knowledge and the core sk
 
 ## Relevant dates:
 
-**Course start:** 22 February
+**Course start:** 21 February (Survey + Importance of RDM)
 
 **In person session:** 29 February
 
@@ -37,7 +37,19 @@ If at any point you're confronted with undesirable behaviour, please reach out t
 
 ## In person session
 
-<table>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th><p>Topic</p></th>
@@ -82,9 +94,9 @@ What is your main challenge in Data Management?</p></td>
 <tr class="odd">
 <td><p>RDM essentials</p></td>
 <td><p>9:40</p></td>
-<td><p>10:00</p></td>
-<td><p>20 min</p></td>
-<td></td>
+<td><p>10:10</p></td>
+<td><p>30 min</p></td>
+<td><p><strong>Discussion:</strong> what is your challenge? (15 min)</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -93,8 +105,8 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="even">
 <td><p>Break</p></td>
-<td><p>10:00</p></td>
-<td><p>10:15</p></td>
+<td><p>10:10</p></td>
+<td><p>10:35</p></td>
 <td><p>15 min</p></td>
 <td></td>
 <td></td>
@@ -105,8 +117,8 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="odd">
 <td><p>FAIR principles</p></td>
-<td><p>10:15</p></td>
-<td><p>10:25</p></td>
+<td><p>10:35</p></td>
+<td><p>10:45</p></td>
 <td><p>10 min</p></td>
 <td></td>
 <td></td>
@@ -117,9 +129,9 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="even">
 <td><p>FAIR: licences</p></td>
-<td><p>10:25</p></td>
 <td><p>10:45</p></td>
-<td><p>20 min</p></td>
+<td><p>11:00</p></td>
+<td><p>15 min</p></td>
 <td><p><strong>Exercise:</strong> choose a license</p></td>
 <td></td>
 <td></td>
@@ -129,8 +141,8 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="odd">
 <td><p>FAIR: organisation</p></td>
-<td><p>10:45</p></td>
-<td><p>11:15</p></td>
+<td><p>11:00</p></td>
+<td><p>11:30</p></td>
 <td><p>30 min</p></td>
 <td><p><strong>Exercise</strong>: look at data organisation/naming and what to improve</p></td>
 <td></td>
@@ -141,10 +153,10 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="even">
 <td><p>Questions?</p></td>
-<td><p>11:15</p></td>
-<td></td>
-<td><p>20 min</p></td>
-<td><p>If no questions, discuss what was helpful/challenging</p></td>
+<td><p>11:30</p></td>
+<td><p>11:45</p></td>
+<td><p>15 min</p></td>
+<td><p>If no questions, discuss what challenges are left to address.</p></td>
 <td></td>
 <td></td>
 <td></td>

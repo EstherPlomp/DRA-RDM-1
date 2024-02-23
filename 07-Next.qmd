@@ -25,7 +25,11 @@ bibliography: references.bib
 
 -   [A guide to Reproducible Code by the British Ecological Society](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
 
-**Videos on reproducibility:**
+### Resources on data sharing
+
+### Resources on code sharing
+
+### **Videos on reproducibility**
 
 -   ‘[Towards a Culture of Computational Reproducibility](https://www.youtube.com/watch?v=XjW3t-qXAiE&)’
 
@@ -35,7 +39,7 @@ bibliography: references.bib
 
 -   [SORTEE 2021 Plenary Presentations](https://www.youtube.com/playlist?list=PLqTOVbRSdsARz1idHT3KkG1Z5xJeIoULk)
 
-**Other resources on reproducibility**
+### **Other resources on reproducibility**
 
 -   [A Beginner’s Guide to Conducting Reproducible Research](https://doi.org/10.1002/bes2.1801)
 
@@ -47,7 +51,7 @@ bibliography: references.bib
 
 -   [Genotypic variability enhances the reproducibility of an ecological study](https://doi.org/10.1038/s41559-017-0434-x)
 
-**How to get started with programming?**
+### **How to get started with programming?**
 
 -   [Resources for using spreadsheets in research and moving to other tools](https://www.software.ac.uk/blog/2021-11-05-resources-using-spreadsheets-research-and-moving-other-tools)
 
@@ -57,13 +61,15 @@ bibliography: references.bib
 
 -   [Top Tips to Start Coding in Academia](https://www.software.ac.uk/blog/2021-11-04-top-tips-start-coding-academia)
 
-**Publishing**
+### **Publishing**
 
 -   [Peer Community in Ecology](https://ecology.peercommunityin.org/)
 
-**Open Science**
+### **Open Science**
 
 -   You can follow the [Open Science 101 materials](https://openscience101.org) set up by NASA on your own pace, or apply to one of the future OLS programme to [participate in a 6 week cohort with mentoring](https://openlifesci.org/nasa/).
+
+## BioImage (check survey)
 
 For **bioimage analysis** needs visit [forum.image.sc](https://forum.image.sc/), or visit [bio.tools](https://bio.tools/) for tools relevant to **bioinformatics** and life sciences.
 
