@@ -45,7 +45,8 @@ There are important elements to consider within your research workflows if you a
 
 Scripts of the videos copied or adapted from [@holmstrand2019].
 
-Many funders and journals now require adherance to FAIR principles
+::: callout-important
+## Many funders and journals require adherence to the FAIR principles
 
 Ecological Society of America journals have a [data policy](https://www.esa.org/publications/data-policy/) that requires sharing of:
 
@@ -56,6 +57,7 @@ Ecological Society of America journals have a [data policy](https://www.esa.org/
 -   All methods or protocols utilized to generate the data, both existing (including references) and new methods/protocols
 
 -   Derived data products
+:::
 
 ## Ecology
 
