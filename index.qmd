@@ -3,7 +3,7 @@ title: "About"
 about:
   id: me
   template: broadside
-  image: welcome.jpg
+  image: img/welcome.jpg
 ---
 
 ![The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).](https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/banner-welcome.jpg){fig-align="center" width="50%"}
