@@ -17,7 +17,7 @@ website:
       - 07-Next.qmd
     tools:
       - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
+        href: https://github.com/EstherPlomp/DRA-RDM-1
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
     left: "RDM101"
