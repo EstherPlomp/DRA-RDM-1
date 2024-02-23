@@ -33,7 +33,7 @@ After completing this course, you will be able to:
 -   Be respectful of different viewpoints and experiences
 -   Provide and gracefully accept constructive criticism
 
-If at any point you're confronted with undesirable behaviour, please reach out to the trainer or ...
+If at any point you're confronted with undesirable behaviour, please reach out to the trainer or Francisca.
 
 ## In person session
 
@@ -55,9 +55,9 @@ If at any point you're confronted with undesirable behaviour, please reach out t
 <tbody>
 <tr class="odd">
 <td><p>Introductions</p></td>
-<td><p>9:30</p></td>
-<td><p>9:45</p></td>
-<td><p>15 min</p></td>
+<td><p>9:00</p></td>
+<td><p>9:20</p></td>
+<td><p>20 min</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -67,8 +67,8 @@ If at any point you're confronted with undesirable behaviour, please reach out t
 </tr>
 <tr class="even">
 <td><p>Why is RDM important</p></td>
-<td><p>9:45</p></td>
-<td><p>10:05</p></td>
+<td><p>9:20</p></td>
+<td><p>9:40</p></td>
 <td><p>20 min</p></td>
 <td><p><strong>Discussion:</strong> Do you find the horror stories or the benefits more convincing? <br />
 Do you have a horror story to share?<br />
@@ -81,8 +81,8 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="odd">
 <td><p>RDM essentials</p></td>
-<td><p>10:05</p></td>
-<td><p>10:25</p></td>
+<td><p>9:40</p></td>
+<td><p>10:00</p></td>
 <td><p>20 min</p></td>
 <td></td>
 <td></td>
@@ -93,9 +93,9 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="even">
 <td><p>Break</p></td>
-<td></td>
-<td></td>
-<td><p>10 min</p></td>
+<td><p>10:00</p></td>
+<td><p>10:15</p></td>
+<td><p>15 min</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -105,8 +105,8 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="odd">
 <td><p>FAIR principles</p></td>
-<td><p>10:40</p></td>
-<td><p>10:50</p></td>
+<td><p>10:15</p></td>
+<td><p>10:25</p></td>
 <td><p>10 min</p></td>
 <td></td>
 <td></td>
@@ -117,8 +117,8 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="even">
 <td><p>FAIR: licences</p></td>
-<td><p>10:50</p></td>
-<td><p>11:10</p></td>
+<td><p>10:25</p></td>
+<td><p>10:45</p></td>
 <td><p>20 min</p></td>
 <td><p><strong>Exercise:</strong> choose a license</p></td>
 <td></td>
@@ -129,8 +129,8 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="odd">
 <td><p>FAIR: organisation</p></td>
-<td><p>11:10</p></td>
-<td><p>11:40</p></td>
+<td><p>10:45</p></td>
+<td><p>11:15</p></td>
 <td><p>30 min</p></td>
 <td><p><strong>Exercise</strong>: look at data organisation/naming and what to improve</p></td>
 <td></td>
@@ -141,7 +141,7 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="even">
 <td><p>Questions?</p></td>
-<td></td>
+<td><p>11:15</p></td>
 <td></td>
 <td><p>20 min</p></td>
 <td><p>If no questions, discuss what was helpful/challenging</p></td>
@@ -224,9 +224,21 @@ What is your main challenge in Data Management?</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Wrap up discussion</p></td>
+<td><p>Exchanging DMP</p></td>
 <td><p>15:45</p></td>
-<td><p>16:05</p></td>
+<td><p>16:15</p></td>
+<td><p>30 min</p></td>
+<td><p><strong>Exercise:</strong> Exchange DMP to receive feedback</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Wrap up discussion</p></td>
+<td><p>16:15</p></td>
+<td><p>16:35</p></td>
 <td><p>20 min</p></td>
 <td><p><strong>Discussion:</strong> What topic of the course challenged you the most? And why?<br />
 What theme challenged you the least because you were already implementing RDM best practices before this course? (If any)<br />
@@ -237,10 +249,10 @@ What do you want to implement from the course?</p></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>Wrap up</p></td>
-<td><p>16:05</p></td>
-<td><p>16:15</p></td>
+<td><p>16:35</p></td>
+<td><p>16:45</p></td>
 <td><p>10 min</p></td>
 <td><p>Summarise day<br />
 Ask feedback<br />
@@ -251,18 +263,6 @@ Potential next steps</p></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 <tr class="even">
 <td></td>
 <td></td>
@@ -300,6 +300,18 @@ Potential next steps</p></td>
 <td></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
