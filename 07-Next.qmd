@@ -1,0 +1,70 @@
+---
+title: "Next"
+bibliography: references.bib
+---
+
+# What to do after this workshop? {#plan}
+
+[The Turing Way](https://the-turing-way.netlify.app/welcome.html) also has a chapter on [Research Data Management](https://the-turing-way.netlify.app/reproducible-research/rdm.html) - and a lot more information on how to **work more reproducible**.
+
+[SORTEE](https://linktr.ee/sortecoevo)
+
+### Resources on data management
+
+-   [A guide to Data Management in Ecology and Evolution by the British Ecological Society](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Data-Management-2019.pdf)
+
+-   [Sharing biological data: why, when, and how](https://doi.org/10.1002/1873-3468.14067)
+
+-   [Reproducible Bioinformatics Research for Biologists](https://osf.io/zqbu2)’ (for people with wetlab lives!)
+
+### Resources on code management
+
+-   [Data Analysis and Visualisation in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/)
+
+-   [Top ten reasons to not **share your code** (and why you should anyway)](https://sinews.siam.org/Details-Page/top-ten-reasons-to-not-share-your-code-and-why-you-should-anyway)
+
+-   [A guide to Reproducible Code by the British Ecological Society](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
+
+**Videos on reproducibility:**
+
+-   ‘[Towards a Culture of Computational Reproducibility](https://www.youtube.com/watch?v=XjW3t-qXAiE&)’
+
+-   ‘[Steps towards reproducible research](https://www.youtube.com/watch?v=rNQ-RlG3JnQ)’
+
+-   [How to make your research reproducible?](https://www.workcast.com/ControlUsher.aspx?cpak=8232371292435174&pak=7279159888532687) (requires you to register to watch on demand)
+
+-   [SORTEE 2021 Plenary Presentations](https://www.youtube.com/playlist?list=PLqTOVbRSdsARz1idHT3KkG1Z5xJeIoULk)
+
+**Other resources on reproducibility**
+
+-   [A Beginner’s Guide to Conducting Reproducible Research](https://doi.org/10.1002/bes2.1801)
+
+-   [Questionable research practices in ecology and evolution](https://doi.org/10.1371/journal.pone.0200303)
+
+-   [Six factors affecting reproducibility in life science research and how to handle them](https://www.nature.com/articles/d42473-019-00004-y)
+
+-   Podcast episode [‘Reproducible data science, how hard can it be?’](https://open.spotify.com/episode/1OVxFUA5UyIfMSCd842wjD?si=tEhJzufDROmOqsvJHsUPuw)
+
+-   [Genotypic variability enhances the reproducibility of an ecological study](https://doi.org/10.1038/s41559-017-0434-x)
+
+**How to get started with programming?**
+
+-   [Resources for using spreadsheets in research and moving to other tools](https://www.software.ac.uk/blog/2021-11-05-resources-using-spreadsheets-research-and-moving-other-tools)
+
+-   [9 Reasons Excel Users Should Consider Learning Programming](https://www.dataquest.io/blog/9-reasons-excel-users-should-consider-learning-programming/)
+
+-   [Training resources for researchers who want to code](https://www.software.ac.uk/blog/2021-11-11-training-resources-researchers-want-learn-code)
+
+-   [Top Tips to Start Coding in Academia](https://www.software.ac.uk/blog/2021-11-04-top-tips-start-coding-academia)
+
+**Publishing**
+
+-   [Peer Community in Ecology](https://ecology.peercommunityin.org/)
+
+**Open Science**
+
+-   You can follow the [Open Science 101 materials](https://openscience101.org) set up by NASA on your own pace, or apply to one of the future OLS programme to [participate in a 6 week cohort with mentoring](https://openlifesci.org/nasa/).
+
+For **bioimage analysis** needs visit [forum.image.sc](https://forum.image.sc/), or visit [bio.tools](https://bio.tools/) for tools relevant to **bioinformatics** and life sciences.
+
+## References

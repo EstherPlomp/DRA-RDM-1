@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RDM 101 - About</title>
+<title>RDM 101 - RDM Essentials</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -33,6 +52,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -80,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -92,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Importance of RDM</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./03-essentials-RDM.html" rel="" target="">
+    <a class="nav-link active" href="./03-essentials-RDM.html" rel="" target="" aria-current="page">
  <span class="menu-text">RDM Essentials</span></a>
   </li>  
   <li class="nav-item">
@@ -126,48 +146,147 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#license-and-attributions" id="toc-license-and-attributions" class="nav-link active" data-scroll-target="#license-and-attributions">License and attributions</a></li>
+  <li><a href="#essentials" id="toc-essentials" class="nav-link active" data-scroll-target="#essentials">Essentials for Research Data</a>
+  <ul class="collapse">
+  <li><a href="#research-data-definition" id="toc-research-data-definition" class="nav-link" data-scroll-target="#research-data-definition">Research Data definition</a></li>
+  <li><a href="#research-data-in-ecology" id="toc-research-data-in-ecology" class="nav-link" data-scroll-target="#research-data-in-ecology">Research Data in ecology</a></li>
+  <li><a href="#confidential-data" id="toc-confidential-data" class="nav-link" data-scroll-target="#confidential-data">Confidential data</a></li>
+  <li><a href="#personal-data-check-answers-phd-survey" id="toc-personal-data-check-answers-phd-survey" class="nav-link" data-scroll-target="#personal-data-check-answers-phd-survey">Personal Data (check answers PhD survey)</a></li>
+  <li><a href="#relevant-rdm-steps-within-a-research-project" id="toc-relevant-rdm-steps-within-a-research-project" class="nav-link" data-scroll-target="#relevant-rdm-steps-within-a-research-project">Relevant RDM steps within a research project</a></li>
+  <li><a href="#frequently-asked-questions-about-reproducible-research-in-archaeology" id="toc-frequently-asked-questions-about-reproducible-research-in-archaeology" class="nav-link" data-scroll-target="#frequently-asked-questions-about-reproducible-research-in-archaeology">Frequently asked questions about reproducible research (in archaeology)</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-broadside column-page">
-  <div class="about-main">
-    <div class="about-entity" style="background-image: url('welcome.jpg')"></div>
-    <div class="about-contents"><header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">RDM Essentials</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="essentials" class="level1">
+<h1>Essentials for Research Data</h1>
+<p><em>Estimated time: 100 minutes</em></p>
+<p>In this module, we start to dig deeper into RDM by introducing multiple topics concerning the essentials of RDM. At the end of this module you should be able to:</p>
+<ul>
+<li>Identify different types of research data</li>
+<li>Recognize what is considered confidential data in research</li>
+<li>Realise what RDM entails within a research project</li>
+<li>Store and back up the research data of your project in a secure manner</li>
+</ul>
+<section id="research-data-definition" class="level2">
+<h2 class="anchored" data-anchor-id="research-data-definition">Research Data definition</h2>
+<p>Research data is any information that has been collected, observed, generated or created to validate research findings. Depending on the discipline you work in, research data can be collected or produced in different ways. You can capture them in real-time (e.g.&nbsp;sensors, images), you can collect them using laboratory instruments and they can derive from interviews or numerical simulations, among others. Research Data can be digital such as tabular data, videos, algorithms, scripts, transcripts, and codebooks. They can also be non-digital, for example, laboratory samples, sketchbooks, and prototypes.</p>
+</section>
+<section id="research-data-in-ecology" class="level2">
+<h2 class="anchored" data-anchor-id="research-data-in-ecology">Research Data in ecology</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ecological systems are dynamic and heterogeneous, interacting with numerous factors that sculpt natural history and that investigators cannot completely control. Observations may be highly dependent on spatial and temporal context, making them very difficult to reproduce, but computational reproducibility can still be achieved. <span class="citation" data-cites="powers2018">(<a href="#ref-powers2018" role="doc-biblioref">Powers and Hampton 2018</a>)</span></p>
+</div>
+</div>
+<p>User-friendly tools such as Kepler or VisTrails help document provenance, and Morpho provides an easy way to create standardized, machine-readable metadata using the Ecological Metadata Language (EML).</p>
+<p><span class="citation" data-cites="tulloch2018">(<a href="#ref-tulloch2018" role="doc-biblioref">Tulloch et al. 2018</a>)</span>: <a href="10.1038/s41559-018-0608-1">A decision tree for assessing the risks and benefits of publishing biodiversity data</a></p>
+<p><span class="citation" data-cites="culina2020">(<a href="#ref-culina2020" role="doc-biblioref">Culina et al. 2020</a>)</span>: <a href="https://doi.org/10.1371/journal.pbio.3000763">Low availability of code in ecology: A call for urgent action</a></p>
+</section>
+<section id="confidential-data" class="level2">
+<h2 class="anchored" data-anchor-id="confidential-data">Confidential data</h2>
+<p>There are multiple types of confidential data that you might be working with during your research project. Some examples include:</p>
+<ul>
+<li>personal data (information about an identified or identifiable natural person)</li>
+<li>national security data (such as nuclear research)</li>
+<li>data falling under export control regulations</li>
+<li>confidential data received from commercial, or other external partners</li>
+<li>data related to competitive advantage (for example, patent, IP)</li>
+<li>data which could lead to reputation/brand damage (e.g.&nbsp;climate change, personal information, animal research)</li>
+<li>politically-sensitive data (such as research commissioned by public authorities, research on societal issues)</li>
+</ul>
+<p>When working with confidential data, you need additional security measures for your data to make sure that they are not accidentally released. You may need to sign a Non Disclosure Agreement (NDA), while also ensuring that you can publish the results after review.</p>
+</section>
+<section id="personal-data-check-answers-phd-survey" class="level2">
+<h2 class="anchored" data-anchor-id="personal-data-check-answers-phd-survey">Personal Data (check answers PhD survey)</h2>
+<p>Only read these materials if you work with personal data (data that can identify a person)</p>
+<ul>
+<li><strong>If you conduct research which involves human Research Subjects (ie: where human participants are the source your research data), you will have to submit an application for approval to the <a href="https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/human-research-ethics">TU Delft Human Research Ethic Committee</a>.</strong></li>
+<li><a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-personal.html">Personal data management - The Turing Way</a></li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/banner-welcome.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption class="figure-caption">The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
+<p><a href="https://doi.org/10.5281/zenodo.3332807"><img src="https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/sensitive-data.jpg" class="img-fluid figure-img" style="width:68.0%" alt="A visualisation on how sensitive data requires an additional track or process to be able to share (parts of it). Tools that can help to make research based on senstive data reproducible are: encryption, consent, deidentification, sytnethic data and data safe havens."></a></p>
+<figcaption class="figure-caption">The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.</figcaption>
 </figure>
 </div>
-<p>This website is an adaptation of the <a href="https://www.tudelft.nl/en/library/research-data-management/r/training-events/training-for-researchers/research-data-management-101">Research Data Management 101 Course</a> provided by TU Delft Library.</p>
-<p>This course provides PhD candidates with the essential knowledge and the core skills to manage research data according to best practice. Learners will be able to integrate good data management practices within their workflows from the beginning of their projects. The application of this knowledge to their research will allow them to reflect on how to work efficiently and in a reproducible manner with their research data, while complying with funders and institutional requirements.</p>
-<p>This is a two week blended course, meaning that is a mix of self-studying and one in-person session.</p>
+</section>
+<section id="relevant-rdm-steps-within-a-research-project" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-rdm-steps-within-a-research-project">Relevant RDM steps within a research project</h2>
+<p>In the following presentation you can go through a simplified cycle which can represent your project. Have a look at the RDM questions you might ask at each step of research.</p>
+<p><a href="https://surfdrive.surf.nl/files/index.php/s/KiQo8RsVXHPHUUp">02-1_ Module-2_handout_RDM_steps_Interactive_image</a></p>
+</section>
+<section id="frequently-asked-questions-about-reproducible-research-in-archaeology" class="level2">
+<h2 class="anchored" data-anchor-id="frequently-asked-questions-about-reproducible-research-in-archaeology">Frequently asked questions about reproducible research (in archaeology)</h2>
+<p>You can find answers to the questions below in <span class="citation" data-cites="marwick2022">(<a href="#ref-marwick2022" role="doc-biblioref">Marwick 2022</a>)</span>, p20.</p>
 <ul>
-<li>The time to be spent for the course is approximately 9 hours in total.</li>
-<li>The online learning environment is this website and it’s GitHub Repository. Participants will have to set up a GitHub account to participate and will be instructed on how GitHub works.</li>
+<li>How do you decide if you should publish data and/or code openly?</li>
+<li>Where do you start training skills in open science and reproducibility?</li>
+<li>What should you consider when you publish an article with underlying data/code?</li>
+<li>How do you share data to make it more accessible to others?</li>
+<li>How do you clean up the data and code before sharing this publicly?</li>
+<li>How do you share research methods more openly?</li>
+<li>What is metadata?</li>
+<li>What about licenses/copyright?</li>
+<li>What if people misinterpret data or find a mistake?</li>
+<li>A supervisor doesn’t want to work reproducibility, how do you convince them?</li>
+<li>Will reproducible research be taken into account when looking for a next job?</li>
+<li>Do platforms like SciHub, ResearchGate, Academia.edu count as Open Access?</li>
 </ul>
-<section id="license-and-attributions" class="level2">
-<h2 data-anchor-id="license-and-attributions">License and attributions</h2>
-<p><strong>All the course materials can be found here</strong>: Martinez-Lavanchy, P.M., van Schöll, Pim, &amp; Zormpa, Eirini. (2022). TU Delft Research Data Management 101 course. Zenodo. <a href="https://doi.org/10.5281/zenodo.6325919" class="uri">https://doi.org/10.5281/zenodo.6325919</a></p>
-<p>Parts of the content of this course are based on: Holmstrand, K.F., den Boer, S.P.A., Vlachos, E., Martínez-Lavanchy, P.M., Hansen, K.K. (Eds.) (2019). Research Data Management (eLearning course). doi: <a href="https://doi.org/10.11581/dtu:00000047">10.11581/dtu:00000047</a></p>
-<p>This website is made using <a href="https://quarto.org/">Quarto</a> Allaire, J., Teague, C., Scheidegger, C., Xie, Y., &amp; Dervieux, C. (2022). Quarto (Version 0.3) [Computer software]. <a href="https://doi.org/10.5281/zenodo.5960048" class="uri">https://doi.org/10.5281/zenodo.5960048</a>.</p>
+</section>
+<section id="references" class="level2">
+
+
 
 
 </section>
-</main></div>
-  </div>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-culina2020" class="csl-entry" role="listitem">
+Culina, Antica, Ilona van den Berg, Simon Evans, and Alfredo Sánchez-Tójar. 2020. <span>“Low Availability of Code in Ecology: A&nbsp;Call for Urgent Action.”</span> <em>PLOS Biology</em> 18 (7): e3000763. <a href="https://doi.org/10.1371/journal.pbio.3000763">https://doi.org/10.1371/journal.pbio.3000763</a>.
 </div>
- <!-- /main -->
+<div id="ref-marwick2022" class="csl-entry" role="listitem">
+Marwick, Ben. 2022. <span>“Three Levels of Reproducible Workflow Remove Barriers for Archaeologists and Increase Accessibility.”</span> <em>Peer Community In Archaeology</em>, November. <a href="https://doi.org/10.24072/pci.archaeo.100022">https://doi.org/10.24072/pci.archaeo.100022</a>.
+</div>
+<div id="ref-powers2018" class="csl-entry" role="listitem">
+Powers, Stephen M., and Stephanie E. Hampton. 2018. <span>“Open Science, Reproducibility, and Transparency in Ecology.”</span> <em>Ecological Applications</em> 29 (1). <a href="https://doi.org/10.1002/eap.1822">https://doi.org/10.1002/eap.1822</a>.
+</div>
+<div id="ref-tulloch2018" class="csl-entry" role="listitem">
+Tulloch, Ayesha I. T., Nancy Auerbach, Stephanie Avery-Gomm, Elisa Bayraktarov, Nathalie Butt, Chris R. Dickman, Glenn Ehmke, et al. 2018. <span>“A Decision Tree for Assessing the Risks and Benefits of Publishing Biodiversity Data.”</span> <em>Nature Ecology &amp; Evolution</em> 2 (8): 1209–17. <a href="https://doi.org/10.1038/s41559-018-0608-1">https://doi.org/10.1038/s41559-018-0608-1</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -188,6 +307,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

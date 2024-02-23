@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>RDM 101 - FAIR</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">RDM 101</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./01-introduction.html" rel="" target="">
+ <span class="menu-text">Introduction</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./02-Importance-RDM.html" rel="" target="">
+ <span class="menu-text">Importance of RDM</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./03-essentials-RDM.html" rel="" target="">
+ <span class="menu-text">RDM Essentials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./04-policies.html" rel="" target="">
+ <span class="menu-text">Policies</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./05-FAIR.html" rel="" target="" aria-current="page">
+ <span class="menu-text">FAIR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./06-DMP.html" rel="" target="">
+ <span class="menu-text">DMP</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./07-Next.html" rel="" target="">
+ <span class="menu-text">Next</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://github.com/YOURUSERNAME/YOURREPO" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#FAIR" id="toc-FAIR" class="nav-link active" data-scroll-target="#FAIR">FAIR principles</a>
+  <ul class="collapse">
+  <li><a href="#what-are-the-fair-principles" id="toc-what-are-the-fair-principles" class="nav-link" data-scroll-target="#what-are-the-fair-principles">What are the FAIR principles?</a></li>
+  <li><a href="#ecology" id="toc-ecology" class="nav-link" data-scroll-target="#ecology">Ecology</a></li>
+  <li><a href="#test-how-aware-of-fair-you-are-optional" id="toc-test-how-aware-of-fair-you-are-optional" class="nav-link" data-scroll-target="#test-how-aware-of-fair-you-are-optional">Test how aware of FAIR you are (optional)</a></li>
+  <li><a href="#data-and-code-licences" id="toc-data-and-code-licences" class="nav-link" data-scroll-target="#data-and-code-licences">Data and Code Licences</a></li>
+  </ul></li>
+  <li><a href="#realising-fair-data-organisation" id="toc-realising-fair-data-organisation" class="nav-link" data-scroll-target="#realising-fair-data-organisation">Realising FAIR: Data organisation</a>
+  <ul class="collapse">
+  <li><a href="#data-organisation" id="toc-data-organisation" class="nav-link" data-scroll-target="#data-organisation">Data Organisation</a>
+  <ul class="collapse">
+  <li><a href="#presentation-resources" id="toc-presentation-resources" class="nav-link" data-scroll-target="#presentation-resources">Presentation Resources</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#realising-fair-data-documentation" id="toc-realising-fair-data-documentation" class="nav-link" data-scroll-target="#realising-fair-data-documentation">Realising FAIR: Data Documentation</a>
+  <ul class="collapse">
+  <li><a href="#documentation-tools" id="toc-documentation-tools" class="nav-link" data-scroll-target="#documentation-tools">Documentation tools</a></li>
+  <li><a href="#electronic-lab-notebooks" id="toc-electronic-lab-notebooks" class="nav-link" data-scroll-target="#electronic-lab-notebooks">(Electronic) Lab Notebooks</a></li>
+  <li><a href="#paper-lab-notebooks" id="toc-paper-lab-notebooks" class="nav-link" data-scroll-target="#paper-lab-notebooks">Paper Lab Notebooks</a></li>
+  <li><a href="#softwarecode-documentation" id="toc-softwarecode-documentation" class="nav-link" data-scroll-target="#softwarecode-documentation">Software/code documentation</a></li>
+  </ul></li>
+  <li><a href="#realising-fair-data-publication" id="toc-realising-fair-data-publication" class="nav-link" data-scroll-target="#realising-fair-data-publication">Realising FAIR: Data Publication</a>
+  <ul class="collapse">
+  <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data access</a></li>
+  <li><a href="#datasoftware-articles" id="toc-datasoftware-articles" class="nav-link" data-scroll-target="#datasoftware-articles">Data/Software Articles</a></li>
+  <li><a href="#software-sharing" id="toc-software-sharing" class="nav-link" data-scroll-target="#software-sharing">Software Sharing</a></li>
+  <li><a href="#why-not-the-supplemental-materials" id="toc-why-not-the-supplemental-materials" class="nav-link" data-scroll-target="#why-not-the-supplemental-materials">Why not the supplemental materials?</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">FAIR</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="FAIR" class="level1">
+<h1>FAIR principles</h1>
+<p><em>Estimated time: 30 minutes</em></p>
+<p>In this module, we will discover the FAIR data principles and their main elements. At the end of this module, you should be able to:</p>
+<ul>
+<li>Understand the FAIR principles and their relation to RDM</li>
+<li>Identify the license that fits your research output</li>
+<li>Understand the importance of good data organisation and be aware of best practices around data organisation</li>
+<li>Recognize the relevance of documentation and be familiar with diverse tools to document data</li>
+<li>Identify relevant tools to advance towards FAIR data</li>
+<li>Discuss data publication, best practices and restrictions</li>
+</ul>
+<section id="what-are-the-fair-principles" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-fair-principles">What are the FAIR principles?</h2>
+<p>The FAIR principles were created in order to maximize the reuse of scientific data, to promote best practices on Research Data Management and to enable Open Science. Applying the FAIR principles means to make research data Findable, Accessible, Interoperable and Reusable <span class="citation" data-cites="wilkinson2016">(<a href="#ref-wilkinson2016" role="doc-biblioref">Wilkinson et al. 2016</a>)</span>.</p>
+<ul>
+<li>Findable means that others (both human and machines) can discover the data</li>
+<li>Accessible means that the data can be made available to others</li>
+<li>Interoperable means that the data can be integrated with other data and can be easily used by machines or in data analysis workflows.</li>
+<li>Reusable means that the data can be used for new research</li>
+</ul>
+<p>These four principles should be applied (as much as possible) throughout the entire research cycle and they are closely interconnected with each other.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://the-turing-way.netlify.app/_images/fair-principles.svg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a></figcaption>
+</figure>
+</div>
+<p>The FAIR Data principles are NOT:</p>
+<ul>
+<li>A standard. The FAIR principles need to be adapted and followed as much as possible by considering the research practices in your field. FAIR principles should be rather seen as progressive steps that help you make your data re-usable.</li>
+<li>Equivalent to Open Data. FAIR data does not necessarily mean openly available: it should be clear to others that the data exists and which steps they could take to potentially access the data.</li>
+<li>Applied using a particular technology or tool. There might be different tools that enable FAIR data within different disciplines or research workflows.</li>
+</ul>
+<p>There are important elements to consider within your research workflows if you aim to make the data of your project FAIR:</p>
+<ul>
+<li><a href="https://youtu.be/q-NxFTlcKgs">Documentation &amp; Metadata</a></li>
+<li><a href="https://youtu.be/83Jnyd5_vxM">Interoperability</a></li>
+<li><a href="https://youtu.be/3TWye1ftR1w">Access to data</a></li>
+<li><a href="https://youtu.be/m-oWVp92xG0">Persistent identifiers</a></li>
+<li><a href="https://youtu.be/3nl_Z7Jt-Z4">Licences</a></li>
+</ul>
+<p>Scripts of the videos copied or adapted from <span class="citation" data-cites="holmstrand2019">(<a href="#ref-holmstrand2019" role="doc-biblioref">Holmstrand et al. 2019</a>)</span>.</p>
+<p>Many funders and journals now require adherance to FAIR principles</p>
+<p>Ecological Society of America journals have a <a href="https://www.esa.org/publications/data-policy/">data policy</a> that requires sharing of:</p>
+<ul>
+<li><p>Raw data and metadata used to generate tables, figures, plots, videos/animations</p></li>
+<li><p>Novel code or computer software utilized to generate results or analyses</p></li>
+<li><p>All methods or protocols utilized to generate the data, both existing (including references) and new methods/protocols</p></li>
+<li><p>Derived data products</p></li>
+</ul>
+</section>
+<section id="ecology" class="level2">
+<h2 class="anchored" data-anchor-id="ecology">Ecology</h2>
+<p>Ecological Metadata Language</p>
+</section>
+<section id="test-how-aware-of-fair-you-are-optional" class="level2">
+<h2 class="anchored" data-anchor-id="test-how-aware-of-fair-you-are-optional">Test how aware of FAIR you are (optional)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fairaware.dans.knaw.nl/images/logos/fairaware.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">Use the <a href="https://fairaware.dans.knaw.nl/">FAIR-Aware tool</a> to test your knowledge about the FAIR principles</figcaption>
+</figure>
+</div>
+</section>
+<section id="data-and-code-licences" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-code-licences">Data and Code Licences</h2>
+<p>More resources on licences:</p>
+<ul>
+<li>Licenses for data, presentations and articles: Use the CC <a href="https://chooser-beta.creativecommons.org/">license chooser</a>.</li>
+<li>Software: <a href="https://choosealicense.com/licenses/">Choose a License</a>. (For more detailed information, see ‘<a href="https://softwaresaved.github.io/software-deposit-guidance/HowToChooseSoftwareLicence.html">How to choose a software licence</a>’).</li>
+<li>Note that apart from CC0, the licenses for data and code are different. Software licenses are more complex as software differs from data in the ways you can reuse it, as unlike data, software is executable.</li>
+</ul>
+</section>
+</section>
+<section id="realising-fair-data-organisation" class="level1">
+<h1>Realising FAIR: Data organisation</h1>
+<section id="data-organisation" class="level2">
+<h2 class="anchored" data-anchor-id="data-organisation">Data Organisation</h2>
+<p>Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.</p>
+<ul>
+<li><p><strong>It is easier to do data organisation right from the start, which will save you a lot of time!</strong></p></li>
+<li><p><strong>There is no one right way to do it, and you may have to adapt to workflows in your lab/team</strong></p></li>
+</ul>
+<p>In the next video, we will go through some best practices to help you organise the data of your project efficiently. These best practices are using a good folder structure, tagging files (if possible) and an appropriate file naming convention to enhance the findability of the data in your directories.</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1lCpNmT6P64blT4aX36U4fFWLIGAoZKlV/view?usp=share_link">04-1_Module-4_Video_Presentation_Data organisation</a>(<em>15 minutes</em>)</li>
+<li><a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=file%20naming#file-naming-conventions">The Turing Way information on File Naming Conventions</a></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/EstherPlomp/TNW-RDM-101/main/images/Horst-image.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Image by <a href="https://twitter.com/allison_horst/status/1644020630780805121/photo/1">Allison Horst</a></figcaption>
+</figure>
+</div>
+<section id="presentation-resources" class="level3">
+<h3 class="anchored" data-anchor-id="presentation-resources">Presentation Resources</h3>
+<ul>
+<li><a href="http://nikola.me/folder_structure.html">Folder structure explanation of Neuroscientist Nikola Vukovic</a></li>
+<li><a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html">The Turing Way - Data storage and organisation</a> <span class="citation" data-cites="community2022">(<a href="#ref-community2022" role="doc-biblioref">Community 2022</a>)</span></li>
+<li><a href="https://libguides.mit.edu/metadataTools">Tagging and Finding Your Files: Home. MIT Libraries</a></li>
+<li>You can also use templates such as <a href="https://estherplomp.github.io/TNW-RDM-101/08-Realising-FAIR-Organisation.html#assignment-using-cookiecutter">Cookiecutter</a> if you use the same folder directories for different projects or work with a lot of students.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://the-turing-way.netlify.app/_images/research-compendium.svg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a></figcaption>
+</figure>
+</div>
+</section>
+</section>
+</section>
+<section id="realising-fair-data-documentation" class="level1">
+<h1>Realising FAIR: Data Documentation</h1>
+<section id="documentation-tools" class="level2">
+<h2 class="anchored" data-anchor-id="documentation-tools">Documentation tools</h2>
+<p>Documentation is vital to making your work understandable, which is, in turn, necessary for your work to be reusable. Documentation is important not only for data, but for your projects in general, including the code you write. Your documentation should provide context for your project and its data and should, for example, provide information about the data collection, structure, and ownership.</p>
+<p>In the next video we will talk about different methods and tools you can use to document projects, datasets, and code. We will also briefly talk about metadata.</p>
+<ul>
+<li><a href="https://surfdrive.surf.nl/files/index.php/s/Y1ylaZYL1R3VPbR">04-2_Module-4_Video_Presentation_DataDocumentation</a> (<em>12 minutes</em>, audio will play automatically in full presentation mode)</li>
+<li><a href="https://estherplomp.github.io/TNW-OS-support/posts/readme/">Read more about README files</a>
+<ul>
+<li><a href="https://cornell.app.box.com/v/ReadmeTemplate">Cornell template for a ReadMe file</a>.</li>
+</ul></li>
+<li>Data Dictionaries for tabular data (Watch a <a href="https://www.youtube.com/watch?v=Fe3i9qyqPjo">video on data dictionaries</a>)</li>
+<li><a href="https://create.frictionlessdata.io">Create a package for your data with Frictionless Data</a></li>
+</ul>
+</section>
+<section id="electronic-lab-notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="electronic-lab-notebooks">(Electronic) Lab Notebooks</h2>
+<p>Some labs make use of Electronic Lab Notebooks to manage data. Ideally everyone is using the same solution.</p>
+<p>There are also electronic notes such as:</p>
+<ul>
+<li>OneNote</li>
+<li><a href="https://obsidian.md/">Obsidian</a> (or <a href="https://logseq.com/">logseq</a>)</li>
+</ul>
+</section>
+<section id="paper-lab-notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="paper-lab-notebooks">Paper Lab Notebooks</h2>
+<p>In case you prefer to stick to paper, here are some organisation tips:</p>
+<ul>
+<li>State the name of the researcher and period of use on the cover of the notebook</li>
+<li>Number all pages consecutively</li>
+<li>All entries should be written with permanent ink (no pencils)</li>
+<li>Standard language should be English</li>
+<li>Each record requires a date</li>
+<li>Make sure that it is possible to separate the different experiments recorded (use meaningful titles)</li>
+<li>Add a note where the raw data linked to the experiment will be stored and the name of the corresponding data file</li>
+<li>Do not keep loose pages in your notebook. Fix to the notebook any relevant piece of paper and/or picture in a proper way</li>
+</ul>
+<p>Make sure you scan your paper notebook so that you have a back up copy!</p>
+</section>
+<section id="softwarecode-documentation" class="level2">
+<h2 class="anchored" data-anchor-id="softwarecode-documentation">Software/code documentation</h2>
+<ul>
+<li>See the <a href="https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo">example used in the presentation using JupyterLab</a></li>
+<li><a href="https://github.com/manuGil/fair-code">Template to set up a GitHub (or GitLab) repository with all the relevant documentation about the project</a></li>
+<li><a href="https://coderefinery.github.io/documentation/">Code Refinery materials on Code Documentation</a></li>
+<li>Use the <a href="https://codemeta.github.io/codemeta-generator/">CodeMeta creator</a> to create a .json metadata file to add to your repo</li>
+<li>Barbara Vreede’s presentation on <a href="https://bvreede.github.io/presentations/presentations/2020-09-17_BestPractices-lecture.html#1">Best Practices for Writing Reproducible Code</a></li>
+<li><a href="https://github.com/jupyter/jupyter/wiki">Jupyter Notebooks</a></li>
+<li><a href="https://www.software.ac.uk/blog/2022-07-04-aim-understandability-if-you-want-write-good-research-software">Aim For Understandability If You Want To Write Good Research Software</a></li>
+<li>For Julia you can use <a href="https://juliadynamics.github.io/DrWatson.jl/dev/">DrWatson</a> to create consistent folder structures. Particularly useful for simulation data.</li>
+</ul>
+</section>
+</section>
+<section id="realising-fair-data-publication" class="level1">
+<h1>Realising FAIR: Data Publication</h1>
+<section id="data-access" class="level2">
+<h2 class="anchored" data-anchor-id="data-access">Data access</h2>
+<p>It is important to reflect about data access at the beginning of your project to ensure that the right people have access to the right data.</p>
+<p>One way to make the data of your project Findable and Accessible to a broad audience is to publish it in a <strong>data repository</strong>. Data repositories help you comply with the FAIR principles and make it easy to apply some of their main elements, such as <strong>licences</strong> and <strong>persistent identifiers</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://doi.org/10.5281/zenodo.3332807"><img src="https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/DOI.jpg" class="img-fluid figure-img" style="width:50.0%"></a></p>
+<figcaption class="figure-caption">The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.</figcaption>
+</figure>
+</div>
+<p>In the next video we will delve into data access during and after a research project. You will also be introduced to the topic of data publication and data repositories.</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1y9JfKBlvCExdYjxvNIHV9uGBvHsCO9w1/view?usp=share_link">04-3_Module-4_Video_Presentation_DataAccess_DataPublication</a> (<em>15 minutes</em>)</li>
+</ul>
+<p>If you would like to look for a disciplinary specific data repository, you can use:</p>
+<ul>
+<li><a href="https://www.re3data.org/">re3data.org</a></li>
+<li><a href="https://fairsharing.org/">fairsharing.org</a></li>
+</ul>
+<p>Data repositories will facilitate sustainable access to your data. For more information, watch this short video on ‘<a href="https://www.youtube.com/watch?v=bhI1SF_r_K8">Sustainability of data use</a>’ (from the Open Data Governance and Use - released under the CC-BY-NC-SA 4.0 license)</p>
+</section>
+<section id="datasoftware-articles" class="level2">
+<h2 class="anchored" data-anchor-id="datasoftware-articles">Data/Software Articles</h2>
+<p>You can also share your data and code via a <strong>data or software article</strong>.</p>
+<ul>
+<li><a href="https://openworking.wordpress.com/2022/02/17/publishing-a-data-article/">List of data journals</a> with TU Delft resources indicated</li>
+<li><a href="https://www.software.ac.uk/which-journals-should-i-publish-my-software">In which journal should I publish my software?</a>
+<ul>
+<li>for example: the <a href="https://joss.theoj.org/">Journal of Open Source Software (JOSS)</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="software-sharing" class="level2">
+<h2 class="anchored" data-anchor-id="software-sharing">Software Sharing</h2>
+<p>Just sharing software via platforms like GitHub is not sufficient to adhere to the FAIR principles. GitHub/GitLab does not assign a persistent identifier/DOI to the software, and GitHub/GitLab does not have a long term preservation policy like data repositories do. You can share your software on GitHub/GitLab and share a snapshot/version of the code in a data repository as well.</p>
+<ul>
+<li>See <a href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content">here for more information between the GitHub/Zenodo integration</a></li>
+<li>See <a href="https://estherplomp.github.io/TNW-OS-support/posts/software-sharing/#tu.researchdata">here for more information on how to do this using 4TU.ResearchData</a></li>
+</ul>
+<p>Checkout <a href="https://paperswithcode.com/">papers with code</a> to see how other researchers have shared their code!</p>
+</section>
+<section id="why-not-the-supplemental-materials" class="level2">
+<h2 class="anchored" data-anchor-id="why-not-the-supplemental-materials">Why not the supplemental materials?</h2>
+<ul>
+<li>Check <a href="https://estherplomp.github.io/PRES-data-software/#27">this slide</a> on some downsides of sharing your data/code in supplemental materials</li>
+</ul>
+</section>
+<section id="references" class="level2">
+
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-community2022" class="csl-entry" role="listitem">
+Community, The Turing Way. 2022. <em>The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research</em>. Zenodo. <a href="https://doi.org/10.5281/ZENODO.3233853">https://doi.org/10.5281/ZENODO.3233853</a>.
+</div>
+<div id="ref-holmstrand2019" class="csl-entry" role="listitem">
+Holmstrand, K. F., S. P. A. den Boer, E. Vlachos, P. M. Martínez-Lavanchy, K. K. Hansen, A. V. Larsen, S. Zurcher, et al. 2019. <span>“Research Data Management (eLearning Course).”</span> <a href="https://doi.org/10.11581/DTU:00000047">https://doi.org/10.11581/DTU:00000047</a>.
+</div>
+<div id="ref-wilkinson2016" class="csl-entry" role="listitem">
+Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The FAIR Guiding Principles for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1). <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">RDM101</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">Built with <a href="https://quarto.org/">Quarto</a></div>
+  </div>
+</footer>
+
+
+
+</body></html>

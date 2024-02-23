@@ -1,0 +1,79 @@
+---
+title: "RDM Essentials"
+bibliography: references.bib
+---
+
+# Essentials for Research Data {#essentials}
+
+*Estimated time: 100 minutes*
+
+In this module, we start to dig deeper into RDM by introducing multiple topics concerning the essentials of RDM. At the end of this module you should be able to:
+
+-   Identify different types of research data
+-   Recognize what is considered confidential data in research
+-   Realise what RDM entails within a research project
+-   Store and back up the research data of your project in a secure manner
+
+## Research Data definition
+
+Research data is any information that has been collected, observed, generated or created to validate research findings. Depending on the discipline you work in, research data can be collected or produced in different ways. You can capture them in real-time (e.g. sensors, images), you can collect them using laboratory instruments and they can derive from interviews or numerical simulations, among others. Research Data can be digital such as tabular data, videos, algorithms, scripts, transcripts, and codebooks. They can also be non-digital, for example, laboratory samples, sketchbooks, and prototypes.
+
+## Research Data in ecology
+
+::: callout-tip
+Ecological systems are dynamic and heterogeneous, interacting with numerous factors that sculpt natural history and that investigators cannot completely control. Observations may be highly dependent on spatial and temporal context, making them very difficult to reproduce, but computational reproducibility can still be achieved. [@powers2018]
+:::
+
+User-friendly tools such as Kepler or VisTrails help document provenance, and Morpho provides an easy way to create standardized, machine-readable metadata using the Ecological Metadata Language (EML).
+
+[@tulloch2018]: [A decision tree for assessing the risks and benefits of publishing biodiversity data](10.1038/s41559-018-0608-1)
+
+[@culina2020]: [Low availability of code in ecology: A call for urgent action](https://doi.org/10.1371/journal.pbio.3000763)
+
+## Confidential data
+
+There are multiple types of confidential data that you might be working with during your research project. Some examples include:
+
+-   personal data (information about an identified or identifiable natural person)
+-   national security data (such as nuclear research)
+-   data falling under export control regulations
+-   confidential data received from commercial, or other external partners
+-   data related to competitive advantage (for example, patent, IP)
+-   data which could lead to reputation/brand damage (e.g. climate change, personal information, animal research)
+-   politically-sensitive data (such as research commissioned by public authorities, research on societal issues)
+
+When working with confidential data, you need additional security measures for your data to make sure that they are not accidentally released. You may need to sign a Non Disclosure Agreement (NDA), while also ensuring that you can publish the results after review.
+
+## Personal Data (check answers PhD survey)
+
+Only read these materials if you work with personal data (data that can identify a person)
+
+-   **If you conduct research which involves human Research Subjects (ie: where human participants are the source your research data), you will have to submit an application for approval to the [TU Delft Human Research Ethic Committee](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/human-research-ethics).**
+-   [Personal data management - The Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-personal.html)
+
+[![The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.](https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/sensitive-data.jpg){fig-alt="A visualisation on how sensitive data requires an additional track or process to be able to share (parts of it). Tools that can help to make research based on senstive data reproducible are: encryption, consent, deidentification, sytnethic data and data safe havens." width="68%"}](https://doi.org/10.5281/zenodo.3332807)
+
+## Relevant RDM steps within a research project
+
+In the following presentation you can go through a simplified cycle which can represent your project. Have a look at the RDM questions you might ask at each step of research.
+
+[02-1\_ Module-2_handout_RDM_steps_Interactive_image](https://surfdrive.surf.nl/files/index.php/s/KiQo8RsVXHPHUUp)
+
+## Frequently asked questions about reproducible research (in archaeology)
+
+You can find answers to the questions below in [@marwick2022], p20.
+
+-   How do you decide if you should publish data and/or code openly?
+-   Where do you start training skills in open science and reproducibility?
+-   What should you consider when you publish an article with underlying data/code?
+-   How do you share data to make it more accessible to others?
+-   How do you clean up the data and code before sharing this publicly?
+-   How do you share research methods more openly?
+-   What is metadata?
+-   What about licenses/copyright?
+-   What if people misinterpret data or find a mistake?
+-   A supervisor doesn’t want to work reproducibility, how do you convince them?
+-   Will reproducible research be taken into account when looking for a next job?
+-   Do platforms like SciHub, ResearchGate, Academia.edu count as Open Access?
+
+## References
