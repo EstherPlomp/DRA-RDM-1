@@ -35,18 +35,18 @@ If at any point you're confronted with undesirable behaviour, please reach out t
 
 ## In person session
 
-<table style="width:98%;">
+<table style="width:89%;">
 <colgroup>
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,8 +66,8 @@ If at any point you're confronted with undesirable behaviour, please reach out t
 <tr class="odd">
 <td><p>Introductions</p></td>
 <td><p>9:00</p></td>
-<td><p>9:20</p></td>
-<td><p>20 min</p></td>
+<td><p>9:15</p></td>
+<td><p>15 min</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -77,12 +77,12 @@ If at any point you're confronted with undesirable behaviour, please reach out t
 </tr>
 <tr class="even">
 <td><p>Why is RDM important</p></td>
-<td><p>9:20</p></td>
-<td><p>9:40</p></td>
-<td><p>20 min</p></td>
+<td><p>9:15</p></td>
+<td><p>9:45</p></td>
+<td><p>30 min</p></td>
 <td><p><strong>Discussion:</strong> Do you find the horror stories or the benefits more convincing? <br />
 Do you have a horror story to share?<br />
-What is your main challenge in Data Management?</p></td>
+What is your main challenge in Data Management? (20 min)</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -91,7 +91,7 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="odd">
 <td><p>RDM essentials</p></td>
-<td><p>9:40</p></td>
+<td><p>9:45</p></td>
 <td><p>10:10</p></td>
 <td><p>30 min</p></td>
 <td><p><strong>Discussion:</strong> what is your challenge? (15 min)</p></td>
@@ -140,9 +140,9 @@ What is your main challenge in Data Management?</p></td>
 <tr class="odd">
 <td><p>FAIR: organisation</p></td>
 <td><p>11:00</p></td>
-<td><p>11:30</p></td>
-<td><p>30 min</p></td>
-<td><p><strong>Exercise</strong>: look at data organisation/naming and what to improve</p></td>
+<td><p>11:45</p></td>
+<td><p>45 min</p></td>
+<td><p><strong>Exercise</strong>: look at data organisation/naming and what to improve (30 min)</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -151,10 +151,10 @@ What is your main challenge in Data Management?</p></td>
 </tr>
 <tr class="even">
 <td><p>Questions?</p></td>
-<td><p>11:30</p></td>
 <td><p>11:45</p></td>
+<td><p>12:00</p></td>
 <td><p>15 min</p></td>
-<td><p>If no questions, discuss what challenges are left to address.</p></td>
+<td><p><strong>Discuss</strong> what challenges are left to address (10 min)</p></td>
 <td></td>
 <td></td>
 <td></td>

@@ -9,11 +9,11 @@ bibliography: references.bib
 
 Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.
 
--   **It is easier to do data organisation right from the start, which will save you a lot of time!**
+-   **It is easier to do data organisation right from the start**, which will save you a lot of time!
 
--   **There is no one right way to do it, and you may have to adapt to workflows in your lab/team**
+-   **There is no one right way to do it,** and you may have to adapt to workflows in your lab/team
 
-To organise your files it is good to set up a folder structure and choose a file naming convention.
+To organise your files it is good to set up a folder structure and choose a file naming convention. [Best practices for file naming for MDPL researchers are summarised on the RDM website](https://rdm.mpdl.mpg.de/before-research/file-handling/).
 
 ## Hierarchical folder structure 
 
@@ -27,7 +27,11 @@ List the types of data in your project and fit them into categories. These can b
 
 -   Don't let the list of files in a folder grow too big - add a new subfolder
 
+-   Consider who needs access to what if you have collaborators
+
 For example: [Folder structure explanation of Neuroscientist Nikola Vukovic](http://nikola.me/folder_structure.html)
+
+![Image by [Allison Horst](https://twitter.com/allison_horst/status/1644020630780805121/photo/1)](https://raw.githubusercontent.com/EstherPlomp/TNW-RDM-101/main/images/Horst-image.jpg){width="56%"}
 
 ## Research Compendium
 
@@ -37,17 +41,29 @@ You can find [more information about Research Compendia in The Turing Way.](http
 
 ![The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/research-compendium.svg){alt="The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807" width="63%"}
 
--   [The Turing Way information on File Naming Conventions](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=file%20naming#file-naming-conventions)
+## Tagging files
 
-![Image by [Allison Horst](https://twitter.com/allison_horst/status/1644020630780805121/photo/1)](https://raw.githubusercontent.com/EstherPlomp/TNW-RDM-101/main/images/Horst-image.jpg){width="70%"}
+You can also tag files to organise them (see this [MIT guide](https://libguides.mit.edu/metadataTools)): Tagging files
+
+-   Add short keywords to files (files can have more than 1 tag)
+
+-   Tagging can be used in combination with the hierarchical folder structure
+
+-   Consistency is key (for example, report, Report and reports are three seperate tags instead of one!)
+
+-   Tagging might depend on the software you're using
+
+## File naming convention
+
+File names can add information to the file to make them more findable and understandable
+
+-   [The Turing Way information on File Naming Conventions](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=file%20naming#file-naming-conventions)
 
 ### Further Resources
 
--   
+-   This information is also summarised in a [15 minute video](https://drive.google.com/file/d/1lCpNmT6P64blT4aX36U4fFWLIGAoZKlV/view?usp=share_link)
+-   [Project structure videos by Danielle Navarro](https://www.youtube.com/watch?v=u6MiDFvAs9w&list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&index=1) (with [slides](https://slides.djnavarro.net/project-structure/#1)).
 -   [The Turing Way - Data storage and organisation](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html) [@community2022]
--   [Tagging and Finding Your Files: Home. MIT Libraries](https://libguides.mit.edu/metadataTools)
 -   You can also use templates such as [Cookiecutter](https://estherplomp.github.io/TNW-RDM-101/08-Realising-FAIR-Organisation.html#assignment-using-cookiecutter) (particularly helpful if you use the same folder directories for different projects or work with a lot of students).
-
-This information is also summarised in a [15 minute video](https://drive.google.com/file/d/1lCpNmT6P64blT4aX36U4fFWLIGAoZKlV/view?usp=share_link)
 
 ## References
