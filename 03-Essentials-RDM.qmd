@@ -3,7 +3,7 @@ title: "RDM Essentials"
 bibliography: references.bib
 ---
 
-# Essentials for Research Data {#essentials}
+# Essentials for Research Data 
 
 *Estimated time: 30 minutes*
 

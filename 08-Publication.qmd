@@ -1,7 +1,9 @@
 ---
-title: "Realising FAIR: Data Publication"
+title: "Data Publication"
 bibliography: references.bib
 ---
+
+# Realising FAIR: Data Publication
 
 One way to make the data of your project Findable and Accessible to a broad audience is to publish it in a **data repository**. Data repositories help you comply with the FAIR principles and make it easy to apply some of their main elements, such as **licences** and **persistent identifiers**.
 

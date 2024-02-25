@@ -3,7 +3,7 @@ title: "Policies"
 bibliography: references.bib
 ---
 
-# Applicable Policies {#essentials}
+# Applicable Policies
 
 In this module, we present an overview of the policies you will need to adhere to as a PhD candidate at IMPRS-QBEE. At the end of this module you should be able to:
 

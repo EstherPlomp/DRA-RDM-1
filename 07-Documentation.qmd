@@ -19,7 +19,11 @@ In the next video we will talk about different methods and tools you can use to 
 
 ## (Electronic) Lab Notebooks
 
-Some labs make use of [Electronic Lab Notebooks](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-elns) to manage data. Ideally everyone is using the same solution. The Turing Way presents an [overview of some of resources that are available](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-elns#resources-for-choosing-elns) to help you make a choice, or you can use the [ELN finder](https://eln-finder.ulb.tu-darmstadt.de/home).
+Some labs make use of [Electronic Lab Notebooks](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-elns) to manage data. Ideally everyone is using the same solution.
+
+[Labfolder](https://labfolder.mpdl.mpg.de/home/) is available to Max Planck researchers.
+
+The Turing Way presents an [overview of some of resources that are available](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-elns#resources-for-choosing-elns) to help you make a choice, or you can use the [ELN finder](https://eln-finder.ulb.tu-darmstadt.de/home).
 
 There are also electronic notes such as:
 
@@ -39,7 +43,7 @@ In case you prefer to stick to paper, here are some organisation tips:
 -   Add a note where the raw data linked to the experiment will be stored and the name of the corresponding data file
 -   Do not keep loose pages in your notebook. Fix to the notebook any relevant piece of paper and/or picture in a proper way
 
-Make sure you scan your paper notebook so that you have a back up copy!
+Make sure you scan/digitise your paper notebook so that you have a back up copy!
 
 ## Software/code documentation
 
