@@ -11,7 +11,7 @@ website:
       - 01-Introduction.qmd
       - 02-Importance-RDM.qmd
       - 03-Essentials-RDM.qmd
-      - 04-Policies-RDM.qmd
+      - 05-Policies-RDM.qmd
       - 05-FAIR.qmd
       - 06-Organisation.qmd
       - 07-Documentation.qmd

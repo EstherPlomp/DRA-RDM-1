@@ -249,7 +249,7 @@ What is your main challenge in Data Management? (20 min)</p></td>
 <td><p>Wrap up discussion</p></td>
 <td><p>16:15</p></td>
 <td><p>16:35</p></td>
-<td><p>20 min</p></td>
+<td><p>40 min</p></td>
 <td><p><strong>Discussion:</strong> What topic of the course challenged you the most? And why?<br />
 What theme challenged you the least because you were already implementing RDM best practices before this course? (If any)<br />
 What do you want to implement from the course?</p></td>

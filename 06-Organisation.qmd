@@ -13,7 +13,7 @@ Good data organisation will allow you to make the data Findable both for yoursel
 
 -   **There is no one right way to do it,** and you may have to adapt to workflows in your lab/team
 
-To organise your files it is good to set up a folder structure and choose a file naming convention. [Best practices for file naming for MDPL researchers are summarised on the RDM website](https://rdm.mpdl.mpg.de/before-research/file-handling/).
+To organise your files it is good to set up a folder structure and choose a file naming convention.
 
 ## Hierarchical folder structure 
 
@@ -58,6 +58,8 @@ You can also tag files to organise them (see this [MIT guide](https://libguides.
 File names can add information to the file to make them more findable and understandable
 
 -   [The Turing Way information on File Naming Conventions](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=file%20naming#file-naming-conventions)
+
+-   [Best practices for file naming for MDPL researchers](https://rdm.mpdl.mpg.de/before-research/file-handling/)
 
 ### Further Resources
 

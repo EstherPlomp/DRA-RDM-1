@@ -34,21 +34,21 @@ User-friendly tools such as Kepler or VisTrails help document provenance, and Mo
 
 There are multiple types of confidential data that you might be working with during your research project. Some examples include:
 
--   personal data (information about an identified or identifiable natural person)
--   national security data (such as nuclear research)
--   data falling under export control regulations
--   confidential data received from commercial, or other external partners
--   data related to competitive advantage (for example, patent, IP)
--   data which could lead to reputation/brand damage (e.g. climate change, personal information, animal research)
--   politically-sensitive data (such as research commissioned by public authorities, research on societal issues)
+-   Personal data (information about an identified or identifiable natural person)
+-   National security data (such as nuclear research)
+-   Data falling under export control regulations
+-   Confidential data received from commercial, or other external partners
+-   Data related to competitive advantage (for example, patent, IP)
+-   Data which could lead to reputation/brand damage (climate change, personal information, animal research)
+-   Politically-sensitive data (such as research commissioned by public authorities, research on societal issues)
 
 When working with confidential data, you need additional security measures for your data to make sure that they are not accidentally released. You may need to sign a Non Disclosure Agreement (NDA), while also ensuring that you can publish the results after review.
 
-## Personal Data (check answers PhD survey)
+## Personal Data 
 
 Only read these materials if you work with personal data (data that can identify a person)
 
--   **If you conduct research which involves human Research Subjects (ie: where human participants are the source your research data), you will have to submit an application for approval to the [TU Delft Human Research Ethic Committee](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/human-research-ethics).**
+-   [Legal and Ethical Aspects](https://rdm.mpdl.mpg.de/before-research/legal-and-ethical-aspects/) (RDM for MPDL)
 -   [Personal data management - The Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-personal.html)
 
 [![The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.](https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/sensitive-data.jpg){fig-alt="A visualisation on how sensitive data requires an additional track or process to be able to share (parts of it). Tools that can help to make research based on senstive data reproducible are: encryption, consent, deidentification, sytnethic data and data safe havens." width="68%"}](https://doi.org/10.5281/zenodo.3332807)
