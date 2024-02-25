@@ -3,7 +3,7 @@ title: "Importance of RDM"
 bibliography: references.bib
 ---
 
-#Pre-course work
+# Pre-course work
 
 *Estimated time: 60-70 minutes*
 

@@ -104,7 +104,7 @@ div.csl-indent {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./01-Introduction.html" rel="" target="">
+    <a class="nav-link" href="./01-introduction.html" rel="" target="">
  <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
@@ -116,7 +116,7 @@ div.csl-indent {
  <span class="menu-text">RDM Essentials</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./04-Policies.html" rel="" target="">
+    <a class="nav-link" href="./04-Policies-RDM.html" rel="" target="">
  <span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
@@ -133,7 +133,7 @@ div.csl-indent {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./08-Publication.html" rel="" target="">
- <span class="menu-text">Publication</span></a>
+ <span class="menu-text">Data Publication</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./09-DMP.html" rel="" target="">
@@ -164,7 +164,9 @@ div.csl-indent {
   <ul class="collapse">
   <li><a href="#data-organisation" id="toc-data-organisation" class="nav-link" data-scroll-target="#data-organisation">Data Organisation</a></li>
   <li><a href="#hierarchical-folder-structure" id="toc-hierarchical-folder-structure" class="nav-link" data-scroll-target="#hierarchical-folder-structure">Hierarchical folder structure</a></li>
-  <li><a href="#research-compendium" id="toc-research-compendium" class="nav-link" data-scroll-target="#research-compendium">Research Compendium</a>
+  <li><a href="#research-compendium" id="toc-research-compendium" class="nav-link" data-scroll-target="#research-compendium">Research Compendium</a></li>
+  <li><a href="#tagging-files" id="toc-tagging-files" class="nav-link" data-scroll-target="#tagging-files">Tagging files</a></li>
+  <li><a href="#file-naming-convention" id="toc-file-naming-convention" class="nav-link" data-scroll-target="#file-naming-convention">File naming convention</a>
   <ul class="collapse">
   <li><a href="#further-resources" id="toc-further-resources" class="nav-link" data-scroll-target="#further-resources">Further Resources</a></li>
   </ul></li>
@@ -199,8 +201,8 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="data-organisation">Data Organisation</h2>
 <p>Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.</p>
 <ul>
-<li><p><strong>It is easier to do data organisation right from the start, which will save you a lot of time!</strong></p></li>
-<li><p><strong>There is no one right way to do it, and you may have to adapt to workflows in your lab/team</strong></p></li>
+<li><p><strong>It is easier to do data organisation right from the start</strong>, which will save you a lot of time!</p></li>
+<li><p><strong>There is no one right way to do it,</strong> and you may have to adapt to workflows in your lab/team</p></li>
 </ul>
 <p>To organise your files it is good to set up a folder structure and choose a file naming convention.</p>
 </section>
@@ -212,8 +214,15 @@ div.csl-indent {
 <li><p>Choose meaningful names</p></li>
 <li><p>Avoid going to deep in the hierarchy (too many subfolders)</p></li>
 <li><p>Don’t let the list of files in a folder grow too big - add a new subfolder</p></li>
+<li><p>Consider who needs access to what if you have collaborators</p></li>
 </ul>
 <p>For example: <a href="http://nikola.me/folder_structure.html">Folder structure explanation of Neuroscientist Nikola Vukovic</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/EstherPlomp/TNW-RDM-101/main/images/Horst-image.jpg" class="img-fluid figure-img" style="width:56.0%"></p>
+<figcaption class="figure-caption">Image by <a href="https://twitter.com/allison_horst/status/1644020630780805121/photo/1">Allison Horst</a></figcaption>
+</figure>
+</div>
 </section>
 <section id="research-compendium" class="level2">
 <h2 class="anchored" data-anchor-id="research-compendium">Research Compendium</h2>
@@ -225,24 +234,32 @@ div.csl-indent {
 <figcaption class="figure-caption">The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807</figcaption>
 </figure>
 </div>
+</section>
+<section id="tagging-files" class="level2">
+<h2 class="anchored" data-anchor-id="tagging-files">Tagging files</h2>
+<p>You can also tag files to organise them (see this <a href="https://libguides.mit.edu/metadataTools">MIT guide</a>): Tagging files</p>
 <ul>
-<li><a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=file%20naming#file-naming-conventions">The Turing Way information on File Naming Conventions</a></li>
+<li><p>Add short keywords to files (files can have more than 1 tag)</p></li>
+<li><p>Tagging can be used in combination with the hierarchical folder structure</p></li>
+<li><p>Consistency is key (for example, report, Report and reports are three seperate tags instead of one!)</p></li>
+<li><p>Tagging might depend on the software you’re using</p></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://raw.githubusercontent.com/EstherPlomp/TNW-RDM-101/main/images/Horst-image.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
-<figcaption class="figure-caption">Image by <a href="https://twitter.com/allison_horst/status/1644020630780805121/photo/1">Allison Horst</a></figcaption>
-</figure>
-</div>
+</section>
+<section id="file-naming-convention" class="level2">
+<h2 class="anchored" data-anchor-id="file-naming-convention">File naming convention</h2>
+<p>File names can add information to the file to make them more findable and understandable</p>
+<ul>
+<li><p><a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=file%20naming#file-naming-conventions">The Turing Way information on File Naming Conventions</a></p></li>
+<li><p><a href="https://rdm.mpdl.mpg.de/before-research/file-handling/">Best practices for file naming for MDPL researchers</a></p></li>
+</ul>
 <section id="further-resources" class="level3">
 <h3 class="anchored" data-anchor-id="further-resources">Further Resources</h3>
 <ul>
-<li></li>
+<li>This information is also summarised in a <a href="https://drive.google.com/file/d/1lCpNmT6P64blT4aX36U4fFWLIGAoZKlV/view?usp=share_link">15 minute video</a></li>
+<li><a href="https://www.youtube.com/watch?v=u6MiDFvAs9w&amp;list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&amp;index=1">Project structure videos by Danielle Navarro</a> (with <a href="https://slides.djnavarro.net/project-structure/#1">slides</a>).</li>
 <li><a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html">The Turing Way - Data storage and organisation</a> <span class="citation" data-cites="community2022">(<a href="#ref-community2022" role="doc-biblioref">Community 2022</a>)</span></li>
-<li><a href="https://libguides.mit.edu/metadataTools">Tagging and Finding Your Files: Home. MIT Libraries</a></li>
 <li>You can also use templates such as <a href="https://estherplomp.github.io/TNW-RDM-101/08-Realising-FAIR-Organisation.html#assignment-using-cookiecutter">Cookiecutter</a> (particularly helpful if you use the same folder directories for different projects or work with a lot of students).</li>
 </ul>
-<p>This information is also summarised in a <a href="https://drive.google.com/file/d/1lCpNmT6P64blT4aX36U4fFWLIGAoZKlV/view?usp=share_link">15 minute video</a></p>
 </section>
 </section>
 <section id="references" class="level2">
