@@ -140,69 +140,6 @@
     "text": "More resources on licences:\n\nLicenses for data, presentations and articles: Use the CC license chooser.\nSoftware: Choose a License. (For more detailed information, see ‘How to choose a software licence’).\nNote that apart from CC0, the licenses for data and code are different. Software licenses are more complex as software differs from data in the ways you can reuse it, as unlike data, software is executable."
   },
   {
-    "objectID": "05-FAIR.html#data-organisation",
-    "href": "05-FAIR.html#data-organisation",
-    "title": "FAIR",
-    "section": "Data Organisation",
-    "text": "Data Organisation\nGood data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.\n\nIt is easier to do data organisation right from the start, which will save you a lot of time!\nThere is no one right way to do it, and you may have to adapt to workflows in your lab/team\n\nIn the next video, we will go through some best practices to help you organise the data of your project efficiently. These best practices are using a good folder structure, tagging files (if possible) and an appropriate file naming convention to enhance the findability of the data in your directories.\n\n04-1_Module-4_Video_Presentation_Data organisation(15 minutes)\nThe Turing Way information on File Naming Conventions\n\n\n\n\nImage by Allison Horst\n\n\n\nPresentation Resources\n\nFolder structure explanation of Neuroscientist Nikola Vukovic\nThe Turing Way - Data storage and organisation (Community 2022)\nTagging and Finding Your Files: Home. MIT Libraries\nYou can also use templates such as Cookiecutter if you use the same folder directories for different projects or work with a lot of students.\n\n\n\n\nThe Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807"
-  },
-  {
-    "objectID": "05-FAIR.html#documentation-tools",
-    "href": "05-FAIR.html#documentation-tools",
-    "title": "FAIR",
-    "section": "Documentation tools",
-    "text": "Documentation tools\nDocumentation is vital to making your work understandable, which is, in turn, necessary for your work to be reusable. Documentation is important not only for data, but for your projects in general, including the code you write. Your documentation should provide context for your project and its data and should, for example, provide information about the data collection, structure, and ownership.\nIn the next video we will talk about different methods and tools you can use to document projects, datasets, and code. We will also briefly talk about metadata.\n\n04-2_Module-4_Video_Presentation_DataDocumentation (12 minutes, audio will play automatically in full presentation mode)\nRead more about README files\n\nCornell template for a ReadMe file.\n\nData Dictionaries for tabular data (Watch a video on data dictionaries)\nCreate a package for your data with Frictionless Data"
-  },
-  {
-    "objectID": "05-FAIR.html#electronic-lab-notebooks",
-    "href": "05-FAIR.html#electronic-lab-notebooks",
-    "title": "FAIR",
-    "section": "(Electronic) Lab Notebooks",
-    "text": "(Electronic) Lab Notebooks\nSome labs make use of Electronic Lab Notebooks to manage data. Ideally everyone is using the same solution. The Turing Way presents an overview of some of resources that are available to help you make a choice, or you can use the ELN finder.\nThere are also electronic notes such as:\n\nOneNote\nObsidian (or logseq)"
-  },
-  {
-    "objectID": "05-FAIR.html#paper-lab-notebooks",
-    "href": "05-FAIR.html#paper-lab-notebooks",
-    "title": "FAIR",
-    "section": "Paper Lab Notebooks",
-    "text": "Paper Lab Notebooks\nIn case you prefer to stick to paper, here are some organisation tips:\n\nState the name of the researcher and period of use on the cover of the notebook\nNumber all pages consecutively\nAll entries should be written with permanent ink (no pencils)\nStandard language should be English\nEach record requires a date\nMake sure that it is possible to separate the different experiments recorded (use meaningful titles)\nAdd a note where the raw data linked to the experiment will be stored and the name of the corresponding data file\nDo not keep loose pages in your notebook. Fix to the notebook any relevant piece of paper and/or picture in a proper way\n\nMake sure you scan your paper notebook so that you have a back up copy!"
-  },
-  {
-    "objectID": "05-FAIR.html#softwarecode-documentation",
-    "href": "05-FAIR.html#softwarecode-documentation",
-    "title": "FAIR",
-    "section": "Software/code documentation",
-    "text": "Software/code documentation\n\nSee the example used in the presentation using JupyterLab\nTemplate to set up a GitHub (or GitLab) repository with all the relevant documentation about the project\nCode Refinery materials on Code Documentation\nUse the CodeMeta creator to create a .json metadata file to add to your repo\nBarbara Vreede’s presentation on Best Practices for Writing Reproducible Code\nJupyter Notebooks\nAim For Understandability If You Want To Write Good Research Software\nFor Julia you can use DrWatson to create consistent folder structures. Particularly useful for simulation data."
-  },
-  {
-    "objectID": "05-FAIR.html#data-access",
-    "href": "05-FAIR.html#data-access",
-    "title": "FAIR",
-    "section": "Data access",
-    "text": "Data access\nIt is important to reflect about data access at the beginning of your project to ensure that the right people have access to the right data.\nOne way to make the data of your project Findable and Accessible to a broad audience is to publish it in a data repository. Data repositories help you comply with the FAIR principles and make it easy to apply some of their main elements, such as licences and persistent identifiers.\n\n\n\nThe Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nIn the next video we will delve into data access during and after a research project. You will also be introduced to the topic of data publication and data repositories.\n\n04-3_Module-4_Video_Presentation_DataAccess_DataPublication (15 minutes)\n\nIf you would like to look for a disciplinary specific data repository, you can use:\n\nre3data.org\nfairsharing.org\n\nData repositories will facilitate sustainable access to your data. For more information, watch this short video on ‘Sustainability of data use’ (from the Open Data Governance and Use - released under the CC-BY-NC-SA 4.0 license)"
-  },
-  {
-    "objectID": "05-FAIR.html#datasoftware-articles",
-    "href": "05-FAIR.html#datasoftware-articles",
-    "title": "FAIR",
-    "section": "Data/Software Articles",
-    "text": "Data/Software Articles\nYou can also share your data and code via a data or software article.\n\nThe Turing Way hosts a List of data journals, with the following ecology journals:\n\nEcological Research\nGlobal Ecology and Biogeography\n\nIn which journal should I publish my software?\n\nfor example: the Journal of Open Source Software (JOSS)"
-  },
-  {
-    "objectID": "05-FAIR.html#software-sharing",
-    "href": "05-FAIR.html#software-sharing",
-    "title": "FAIR",
-    "section": "Software Sharing",
-    "text": "Software Sharing\nJust sharing software via platforms like GitHub is not sufficient to adhere to the FAIR principles. GitHub/GitLab does not assign a persistent identifier/DOI to the software, and GitHub/GitLab does not have a long term preservation policy like data repositories do. You can share your software on GitHub/GitLab and share a snapshot/version of the code in a data repository as well.\n\nSee here for more information between the GitHub/Zenodo integration\n\nCheckout papers with code to see how other researchers have shared their code!"
-  },
-  {
-    "objectID": "05-FAIR.html#why-not-the-supplemental-materials",
-    "href": "05-FAIR.html#why-not-the-supplemental-materials",
-    "title": "FAIR",
-    "section": "Why not the supplemental materials?",
-    "text": "Why not the supplemental materials?\n\nData control: supplementary materials are managed by the publisher and cannot be updated, unlike most data repositories that use versioning\nInteroperability: supplementary materials do not always allow the original format, which makes it difficult to integrate and interact with the data\nAvailability: It is difficult to access if the article is behind the paywall (supplemental materials are not included in the DOI and therefore the links can also break!)\nImpact: Data should be a primary research output!\nPublisher requirements: Some publishers recommend using a data repository instead\nNot FAIR: Data/Software available in supplemental materials is not considered to be FAIR (Findable, Accessible, Interoperable, Resuable)\n\nSee also: The Push to Replace Journal Supplements with Repositories"
-  },
-  {
     "objectID": "03-Essentials-RDM.html",
     "href": "03-Essentials-RDM.html",
     "title": "RDM Essentials",
@@ -354,70 +291,28 @@
     "href": "06-Organisation.html",
     "title": "Organisation",
     "section": "",
-    "text": "Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.\n\nIt is easier to do data organisation right from the start, which will save you a lot of time!\nThere is no one right way to do it, and you may have to adapt to workflows in your lab/team\n\nIn the next video, we will go through some best practices to help you organise the data of your project efficiently. These best practices are using a good folder structure, tagging files (if possible) and an appropriate file naming convention to enhance the findability of the data in your directories.\n\n04-1_Module-4_Video_Presentation_Data organisation(15 minutes)\nThe Turing Way information on File Naming Conventions\n\n\n\n\nImage by Allison Horst\n\n\n\n\n\nFolder structure explanation of Neuroscientist Nikola Vukovic\nThe Turing Way - Data storage and organisation (Community 2022)\nTagging and Finding Your Files: Home. MIT Libraries\nYou can also use templates such as Cookiecutter if you use the same folder directories for different projects or work with a lot of students.\n\n\n\n\nThe Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807"
+    "text": "Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.\n\nIt is easier to do data organisation right from the start, which will save you a lot of time!\nThere is no one right way to do it, and you may have to adapt to workflows in your lab/team\n\nTo organise your files it is good to set up a folder structure and choose a file naming convention.\n\n\n\nList the types of data in your project and fit them into categories. These can be by file type, time period, collection method, project, or instrument\n\nAvoid overlapping categories/names\nChoose meaningful names\nAvoid going to deep in the hierarchy (too many subfolders)\nDon’t let the list of files in a folder grow too big - add a new subfolder\n\nFor example: Folder structure explanation of Neuroscientist Nikola Vukovic\n\n\n\nA research compendium combines all elements of your project, allowing others to reproduce your work. This works particularly well when you work with data and code and have to share these with others.\nYou can find more information about Research Compendia in The Turing Way.\n\n\n\nThe Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807\n\n\n\nThe Turing Way information on File Naming Conventions\n\n\n\n\nImage by Allison Horst\n\n\n\n\n\n\nThe Turing Way - Data storage and organisation (Community 2022)\nTagging and Finding Your Files: Home. MIT Libraries\nYou can also use templates such as Cookiecutter (particularly helpful if you use the same folder directories for different projects or work with a lot of students).\n\nThis information is also summarised in a 15 minute video"
   },
   {
     "objectID": "06-Organisation.html#data-organisation",
     "href": "06-Organisation.html#data-organisation",
     "title": "Organisation",
     "section": "",
-    "text": "Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.\n\nIt is easier to do data organisation right from the start, which will save you a lot of time!\nThere is no one right way to do it, and you may have to adapt to workflows in your lab/team\n\nIn the next video, we will go through some best practices to help you organise the data of your project efficiently. These best practices are using a good folder structure, tagging files (if possible) and an appropriate file naming convention to enhance the findability of the data in your directories.\n\n04-1_Module-4_Video_Presentation_Data organisation(15 minutes)\nThe Turing Way information on File Naming Conventions\n\n\n\n\nImage by Allison Horst\n\n\n\n\n\nFolder structure explanation of Neuroscientist Nikola Vukovic\nThe Turing Way - Data storage and organisation (Community 2022)\nTagging and Finding Your Files: Home. MIT Libraries\nYou can also use templates such as Cookiecutter if you use the same folder directories for different projects or work with a lot of students.\n\n\n\n\nThe Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807"
+    "text": "Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.\n\nIt is easier to do data organisation right from the start, which will save you a lot of time!\nThere is no one right way to do it, and you may have to adapt to workflows in your lab/team\n\nTo organise your files it is good to set up a folder structure and choose a file naming convention."
   },
   {
-    "objectID": "06-Organisation.html#documentation-tools",
-    "href": "06-Organisation.html#documentation-tools",
+    "objectID": "06-Organisation.html#hierarchical-folder-structure",
+    "href": "06-Organisation.html#hierarchical-folder-structure",
     "title": "Organisation",
-    "section": "Documentation tools",
-    "text": "Documentation tools\nDocumentation is vital to making your work understandable, which is, in turn, necessary for your work to be reusable. Documentation is important not only for data, but for your projects in general, including the code you write. Your documentation should provide context for your project and its data and should, for example, provide information about the data collection, structure, and ownership.\nIn the next video we will talk about different methods and tools you can use to document projects, datasets, and code. We will also briefly talk about metadata.\n\n04-2_Module-4_Video_Presentation_DataDocumentation (12 minutes, audio will play automatically in full presentation mode)\nRead more about README files\n\nCornell template for a ReadMe file.\n\nData Dictionaries for tabular data (Watch a video on data dictionaries)\nCreate a package for your data with Frictionless Data"
+    "section": "",
+    "text": "List the types of data in your project and fit them into categories. These can be by file type, time period, collection method, project, or instrument\n\nAvoid overlapping categories/names\nChoose meaningful names\nAvoid going to deep in the hierarchy (too many subfolders)\nDon’t let the list of files in a folder grow too big - add a new subfolder\n\nFor example: Folder structure explanation of Neuroscientist Nikola Vukovic"
   },
   {
-    "objectID": "06-Organisation.html#electronic-lab-notebooks",
-    "href": "06-Organisation.html#electronic-lab-notebooks",
+    "objectID": "06-Organisation.html#research-compendium",
+    "href": "06-Organisation.html#research-compendium",
     "title": "Organisation",
-    "section": "(Electronic) Lab Notebooks",
-    "text": "(Electronic) Lab Notebooks\nSome labs make use of Electronic Lab Notebooks to manage data. Ideally everyone is using the same solution. The Turing Way presents an overview of some of resources that are available to help you make a choice, or you can use the ELN finder.\nThere are also electronic notes such as:\n\nOneNote\nObsidian (or logseq)"
-  },
-  {
-    "objectID": "06-Organisation.html#paper-lab-notebooks",
-    "href": "06-Organisation.html#paper-lab-notebooks",
-    "title": "Organisation",
-    "section": "Paper Lab Notebooks",
-    "text": "Paper Lab Notebooks\nIn case you prefer to stick to paper, here are some organisation tips:\n\nState the name of the researcher and period of use on the cover of the notebook\nNumber all pages consecutively\nAll entries should be written with permanent ink (no pencils)\nStandard language should be English\nEach record requires a date\nMake sure that it is possible to separate the different experiments recorded (use meaningful titles)\nAdd a note where the raw data linked to the experiment will be stored and the name of the corresponding data file\nDo not keep loose pages in your notebook. Fix to the notebook any relevant piece of paper and/or picture in a proper way\n\nMake sure you scan your paper notebook so that you have a back up copy!"
-  },
-  {
-    "objectID": "06-Organisation.html#softwarecode-documentation",
-    "href": "06-Organisation.html#softwarecode-documentation",
-    "title": "Organisation",
-    "section": "Software/code documentation",
-    "text": "Software/code documentation\n\nSee the example used in the presentation using JupyterLab\nTemplate to set up a GitHub (or GitLab) repository with all the relevant documentation about the project\nCode Refinery materials on Code Documentation\nUse the CodeMeta creator to create a .json metadata file to add to your repo\nBarbara Vreede’s presentation on Best Practices for Writing Reproducible Code\nJupyter Notebooks\nAim For Understandability If You Want To Write Good Research Software\nFor Julia you can use DrWatson to create consistent folder structures. Particularly useful for simulation data."
-  },
-  {
-    "objectID": "06-Organisation.html#data-access",
-    "href": "06-Organisation.html#data-access",
-    "title": "Organisation",
-    "section": "Data access",
-    "text": "Data access\nIt is important to reflect about data access at the beginning of your project to ensure that the right people have access to the right data.\nOne way to make the data of your project Findable and Accessible to a broad audience is to publish it in a data repository. Data repositories help you comply with the FAIR principles and make it easy to apply some of their main elements, such as licences and persistent identifiers.\n\n\n\nThe Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nIn the next video we will delve into data access during and after a research project. You will also be introduced to the topic of data publication and data repositories.\n\n04-3_Module-4_Video_Presentation_DataAccess_DataPublication (15 minutes)\n\nIf you would like to look for a disciplinary specific data repository, you can use:\n\nre3data.org\nfairsharing.org\n\nData repositories will facilitate sustainable access to your data. For more information, watch this short video on ‘Sustainability of data use’ (from the Open Data Governance and Use - released under the CC-BY-NC-SA 4.0 license)"
-  },
-  {
-    "objectID": "06-Organisation.html#datasoftware-articles",
-    "href": "06-Organisation.html#datasoftware-articles",
-    "title": "Organisation",
-    "section": "Data/Software Articles",
-    "text": "Data/Software Articles\nYou can also share your data and code via a data or software article.\n\nThe Turing Way hosts a List of data journals, with the following ecology journals:\n\nEcological Research\nGlobal Ecology and Biogeography\n\nIn which journal should I publish my software?\n\nfor example: the Journal of Open Source Software (JOSS)"
-  },
-  {
-    "objectID": "06-Organisation.html#software-sharing",
-    "href": "06-Organisation.html#software-sharing",
-    "title": "Organisation",
-    "section": "Software Sharing",
-    "text": "Software Sharing\nJust sharing software via platforms like GitHub is not sufficient to adhere to the FAIR principles. GitHub/GitLab does not assign a persistent identifier/DOI to the software, and GitHub/GitLab does not have a long term preservation policy like data repositories do. You can share your software on GitHub/GitLab and share a snapshot/version of the code in a data repository as well.\n\nSee here for more information between the GitHub/Zenodo integration\n\nCheckout papers with code to see how other researchers have shared their code!"
-  },
-  {
-    "objectID": "06-Organisation.html#why-not-the-supplemental-materials",
-    "href": "06-Organisation.html#why-not-the-supplemental-materials",
-    "title": "Organisation",
-    "section": "Why not the supplemental materials?",
-    "text": "Why not the supplemental materials?\n\nData control: supplementary materials are managed by the publisher and cannot be updated, unlike most data repositories that use versioning\nInteroperability: supplementary materials do not always allow the original format, which makes it difficult to integrate and interact with the data\nAvailability: It is difficult to access if the article is behind the paywall (supplemental materials are not included in the DOI and therefore the links can also break!)\nImpact: Data should be a primary research output!\nPublisher requirements: Some publishers recommend using a data repository instead\nNot FAIR: Data/Software available in supplemental materials is not considered to be FAIR (Findable, Accessible, Interoperable, Resuable)\n\nSee also: The Push to Replace Journal Supplements with Repositories"
+    "section": "",
+    "text": "A research compendium combines all elements of your project, allowing others to reproduce your work. This works particularly well when you work with data and code and have to share these with others.\nYou can find more information about Research Compendia in The Turing Way.\n\n\n\nThe Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807\n\n\n\nThe Turing Way information on File Naming Conventions\n\n\n\n\nImage by Allison Horst\n\n\n\n\n\n\nThe Turing Way - Data storage and organisation (Community 2022)\nTagging and Finding Your Files: Home. MIT Libraries\nYou can also use templates such as Cookiecutter (particularly helpful if you use the same folder directories for different projects or work with a lot of students).\n\nThis information is also summarised in a 15 minute video"
   },
   {
     "objectID": "08-Publication.html",

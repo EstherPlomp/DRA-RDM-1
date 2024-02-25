@@ -27,19 +27,27 @@ List the types of data in your project and fit them into categories. These can b
 
 -   Don't let the list of files in a folder grow too big - add a new subfolder
 
--   [04-1_Module-4_Video_Presentation_Data organisation](https://drive.google.com/file/d/1lCpNmT6P64blT4aX36U4fFWLIGAoZKlV/view?usp=share_link)(*15 minutes*)
+For example: [Folder structure explanation of Neuroscientist Nikola Vukovic](http://nikola.me/folder_structure.html)
+
+## Research Compendium
+
+A [research compendium](https://doi.org/10.7287/peerj.preprints.3192v2) combines all elements of your project, allowing others to reproduce your work. This works particularly well when you work with data and code and have to share these with others.
+
+You can find [more information about Research Compendia in The Turing Way.](https://the-turing-way.netlify.app/reproducible-research/compendia.html)
+
+![The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/research-compendium.svg){alt="The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807" width="63%"}
 
 -   [The Turing Way information on File Naming Conventions](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=file%20naming#file-naming-conventions)
 
 ![Image by [Allison Horst](https://twitter.com/allison_horst/status/1644020630780805121/photo/1)](https://raw.githubusercontent.com/EstherPlomp/TNW-RDM-101/main/images/Horst-image.jpg){width="70%"}
 
-### Presentation Resources
+### Further Resources
 
--   [Folder structure explanation of Neuroscientist Nikola Vukovic](http://nikola.me/folder_structure.html)
+-   
 -   [The Turing Way - Data storage and organisation](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html) [@community2022]
 -   [Tagging and Finding Your Files: Home. MIT Libraries](https://libguides.mit.edu/metadataTools)
--   You can also use templates such as [Cookiecutter](https://estherplomp.github.io/TNW-RDM-101/08-Realising-FAIR-Organisation.html#assignment-using-cookiecutter) if you use the same folder directories for different projects or work with a lot of students.
+-   You can also use templates such as [Cookiecutter](https://estherplomp.github.io/TNW-RDM-101/08-Realising-FAIR-Organisation.html#assignment-using-cookiecutter) (particularly helpful if you use the same folder directories for different projects or work with a lot of students).
 
-![The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/research-compendium.svg){width="75%"}
+This information is also summarised in a [15 minute video](https://drive.google.com/file/d/1lCpNmT6P64blT4aX36U4fFWLIGAoZKlV/view?usp=share_link)
 
 ## References
