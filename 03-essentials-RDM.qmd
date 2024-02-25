@@ -5,9 +5,9 @@ bibliography: references.bib
 
 # Essentials for Research Data {#essentials}
 
-*Estimated time: 100 minutes*
+*Estimated time: 30 minutes*
 
-In this module, we start to dig deeper into RDM by introducing multiple topics concerning the essentials of RDM. At the end of this module you should be able to:
+At the end of this module you should be able to:
 
 -   Identify different types of research data
 -   Recognize what is considered confidential data in research
@@ -58,22 +58,5 @@ Only read these materials if you work with personal data (data that can identify
 In the following presentation you can go through a simplified cycle which can represent your project. Have a look at the RDM questions you might ask at each step of research.
 
 [02-1\_ Module-2_handout_RDM_steps_Interactive_image](https://surfdrive.surf.nl/files/index.php/s/KiQo8RsVXHPHUUp)
-
-## Frequently asked questions about reproducible research (in archaeology)
-
-You can find answers to the questions below in [@marwick2022], p20.
-
--   How do you decide if you should publish data and/or code openly?
--   Where do you start training skills in open science and reproducibility?
--   What should you consider when you publish an article with underlying data/code?
--   How do you share data to make it more accessible to others?
--   How do you clean up the data and code before sharing this publicly?
--   How do you share research methods more openly?
--   What is metadata?
--   What about licenses/copyright?
--   What if people misinterpret data or find a mistake?
--   A supervisor doesn’t want to work reproducibility, how do you convince them?
--   Will reproducible research be taken into account when looking for a next job?
--   Do platforms like SciHub, ResearchGate, Academia.edu count as Open Access?
 
 ## References

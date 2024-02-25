@@ -1,0 +1,32 @@
+---
+title: "Organisation"
+bibliography: references.bib
+---
+
+# Realising FAIR: Data organisation
+
+## Data Organisation
+
+Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.
+
+-   **It is easier to do data organisation right from the start, which will save you a lot of time!**
+
+-   **There is no one right way to do it, and you may have to adapt to workflows in your lab/team**
+
+In the next video, we will go through some best practices to help you organise the data of your project efficiently. These best practices are using a good folder structure, tagging files (if possible) and an appropriate file naming convention to enhance the findability of the data in your directories.
+
+-   [04-1_Module-4_Video_Presentation_Data organisation](https://drive.google.com/file/d/1lCpNmT6P64blT4aX36U4fFWLIGAoZKlV/view?usp=share_link)(*15 minutes*)
+-   [The Turing Way information on File Naming Conventions](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=file%20naming#file-naming-conventions)
+
+![Image by [Allison Horst](https://twitter.com/allison_horst/status/1644020630780805121/photo/1)](https://raw.githubusercontent.com/EstherPlomp/TNW-RDM-101/main/images/Horst-image.jpg){width="70%"}
+
+### Presentation Resources
+
+-   [Folder structure explanation of Neuroscientist Nikola Vukovic](http://nikola.me/folder_structure.html)
+-   [The Turing Way - Data storage and organisation](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html) [@community2022]
+-   [Tagging and Finding Your Files: Home. MIT Libraries](https://libguides.mit.edu/metadataTools)
+-   You can also use templates such as [Cookiecutter](https://estherplomp.github.io/TNW-RDM-101/08-Realising-FAIR-Organisation.html#assignment-using-cookiecutter) if you use the same folder directories for different projects or work with a lot of students.
+
+![The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/research-compendium.svg){width="75%"}
+
+## References

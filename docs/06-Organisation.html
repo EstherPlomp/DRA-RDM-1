@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RDM 101 - FAIR</title>
+<title>RDM 101 - Organisation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -120,11 +120,11 @@ div.csl-indent {
  <span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./05-FAIR.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./05-FAIR.html" rel="" target="">
  <span class="menu-text">FAIR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./06-Organisation.html" rel="" target="">
+    <a class="nav-link active" href="./06-Organisation.html" rel="" target="" aria-current="page">
  <span class="menu-text">Organisation</span></a>
   </li>  
   <li class="nav-item">
@@ -160,14 +160,7 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#FAIR" id="toc-FAIR" class="nav-link active" data-scroll-target="#FAIR">FAIR principles</a>
-  <ul class="collapse">
-  <li><a href="#what-are-the-fair-principles" id="toc-what-are-the-fair-principles" class="nav-link" data-scroll-target="#what-are-the-fair-principles">What are the FAIR principles?</a></li>
-  <li><a href="#ecology" id="toc-ecology" class="nav-link" data-scroll-target="#ecology">Ecology</a></li>
-  <li><a href="#test-how-aware-of-fair-you-are-optional" id="toc-test-how-aware-of-fair-you-are-optional" class="nav-link" data-scroll-target="#test-how-aware-of-fair-you-are-optional">Test how aware of FAIR you are (optional)</a></li>
-  <li><a href="#data-and-code-licences" id="toc-data-and-code-licences" class="nav-link" data-scroll-target="#data-and-code-licences">Data and Code Licences</a></li>
-  </ul></li>
-  <li><a href="#realising-fair-data-organisation" id="toc-realising-fair-data-organisation" class="nav-link" data-scroll-target="#realising-fair-data-organisation">Realising FAIR: Data organisation</a>
+  <li><a href="#realising-fair-data-organisation" id="toc-realising-fair-data-organisation" class="nav-link active" data-scroll-target="#realising-fair-data-organisation">Realising FAIR: Data organisation</a>
   <ul class="collapse">
   <li><a href="#data-organisation" id="toc-data-organisation" class="nav-link" data-scroll-target="#data-organisation">Data Organisation</a>
   <ul class="collapse">
@@ -197,7 +190,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FAIR</h1>
+<h1 class="title">Organisation</h1>
 </div>
 
 
@@ -212,91 +205,6 @@ div.csl-indent {
 
 </header>
 
-<section id="FAIR" class="level1">
-<h1>FAIR principles</h1>
-<p>In this module, we will discover the FAIR data principles and their main elements. At the end of this module, you should be able to:</p>
-<ul>
-<li>Understand the FAIR principles and their relation to RDM</li>
-<li>Identify the license that fits your research output</li>
-<li>Understand the importance of good data organisation and be aware of best practices around data organisation</li>
-<li>Recognize the relevance of documentation and be familiar with diverse tools to document data</li>
-<li>Identify relevant tools to advance towards FAIR data</li>
-<li>Discuss data publication, best practices and restrictions</li>
-</ul>
-<section id="what-are-the-fair-principles" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-the-fair-principles">What are the FAIR principles?</h2>
-<p>The FAIR principles were created in order to maximize the reuse of scientific data, to promote best practices on Research Data Management and to enable Open Science. Applying the FAIR principles means to make research data Findable, Accessible, Interoperable and Reusable <span class="citation" data-cites="wilkinson2016">(<a href="#ref-wilkinson2016" role="doc-biblioref">Wilkinson et al. 2016</a>)</span>.</p>
-<ul>
-<li>Findable means that others (both human and machines) can discover the data</li>
-<li>Accessible means that the data can be made available to others</li>
-<li>Interoperable means that the data can be integrated with other data and can be easily used by machines or in data analysis workflows.</li>
-<li>Reusable means that the data can be used for new research</li>
-</ul>
-<p>These four principles should be applied (as much as possible) throughout the entire research cycle and they are closely interconnected with each other.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://the-turing-way.netlify.app/_images/fair-principles.svg" class="img-fluid figure-img" style="width:75.0%"></p>
-<figcaption class="figure-caption">The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a></figcaption>
-</figure>
-</div>
-<p>The FAIR Data principles are NOT:</p>
-<ul>
-<li>A standard. The FAIR principles need to be adapted and followed as much as possible by considering the research practices in your field. FAIR principles should be rather seen as progressive steps that help you make your data re-usable.</li>
-<li>Equivalent to Open Data. FAIR data does not necessarily mean openly available: it should be clear to others that the data exists and which steps they could take to potentially access the data.</li>
-<li>Applied using a particular technology or tool. There might be different tools that enable FAIR data within different disciplines or research workflows.</li>
-</ul>
-<p>There are important elements to consider within your research workflows if you aim to make the data of your project FAIR:</p>
-<ul>
-<li><a href="https://youtu.be/q-NxFTlcKgs">Documentation &amp; Metadata</a></li>
-<li><a href="https://youtu.be/83Jnyd5_vxM">Interoperability</a></li>
-<li><a href="https://youtu.be/3TWye1ftR1w">Access to data</a></li>
-<li><a href="https://youtu.be/m-oWVp92xG0">Persistent identifiers</a></li>
-<li><a href="https://youtu.be/3nl_Z7Jt-Z4">Licences</a></li>
-</ul>
-<p>Scripts of the videos copied or adapted from <span class="citation" data-cites="holmstrand2019">(<a href="#ref-holmstrand2019" role="doc-biblioref">Holmstrand et al. 2019</a>)</span>.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Many funders and journals require adherence to the FAIR principles
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Ecological Society of America journals have a <a href="https://www.esa.org/publications/data-policy/">data policy</a> that requires sharing of:</p>
-<ul>
-<li><p>Raw data and metadata used to generate tables, figures, plots, videos/animations</p></li>
-<li><p>Novel code or computer software utilized to generate results or analyses</p></li>
-<li><p>All methods or protocols utilized to generate the data, both existing (including references) and new methods/protocols</p></li>
-<li><p>Derived data products</p></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="ecology" class="level2">
-<h2 class="anchored" data-anchor-id="ecology">Ecology</h2>
-<p>Ecological Metadata Language</p>
-</section>
-<section id="test-how-aware-of-fair-you-are-optional" class="level2">
-<h2 class="anchored" data-anchor-id="test-how-aware-of-fair-you-are-optional">Test how aware of FAIR you are (optional)</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fairaware.dans.knaw.nl/images/logos/fairaware.png" class="img-fluid figure-img" style="width:75.0%"></p>
-<figcaption class="figure-caption">Use the <a href="https://fairaware.dans.knaw.nl/">FAIR-Aware tool</a> to test your knowledge about the FAIR principles</figcaption>
-</figure>
-</div>
-</section>
-<section id="data-and-code-licences" class="level2">
-<h2 class="anchored" data-anchor-id="data-and-code-licences">Data and Code Licences</h2>
-<p>More resources on licences:</p>
-<ul>
-<li>Licenses for data, presentations and articles: Use the CC <a href="https://chooser-beta.creativecommons.org/">license chooser</a>.</li>
-<li>Software: <a href="https://choosealicense.com/licenses/">Choose a License</a>. (For more detailed information, see ‘<a href="https://softwaresaved.github.io/software-deposit-guidance/HowToChooseSoftwareLicence.html">How to choose a software licence</a>’).</li>
-<li>Note that apart from CC0, the licenses for data and code are different. Software licenses are more complex as software differs from data in the ways you can reuse it, as unlike data, software is executable.</li>
-</ul>
-</section>
-</section>
 <section id="realising-fair-data-organisation" class="level1">
 <h1>Realising FAIR: Data organisation</h1>
 <section id="data-organisation" class="level2">
@@ -457,12 +365,6 @@ Many funders and journals require adherence to the FAIR principles
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-community2022" class="csl-entry" role="listitem">
 Community, The Turing Way. 2022. <em>The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research</em>. Zenodo. <a href="https://doi.org/10.5281/ZENODO.3233853">https://doi.org/10.5281/ZENODO.3233853</a>.
-</div>
-<div id="ref-holmstrand2019" class="csl-entry" role="listitem">
-Holmstrand, K. F., S. P. A. den Boer, E. Vlachos, P. M. Martínez-Lavanchy, K. K. Hansen, A. V. Larsen, S. Zurcher, et al. 2019. <span>“Research Data Management (eLearning Course).”</span> <a href="https://doi.org/10.11581/DTU:00000047">https://doi.org/10.11581/DTU:00000047</a>.
-</div>
-<div id="ref-wilkinson2016" class="csl-entry" role="listitem">
-Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The FAIR Guiding Principles for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1). <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

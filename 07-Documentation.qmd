@@ -1,0 +1,105 @@
+---
+title: "Documentation"
+bibliography: references.bib
+---
+
+# Realising FAIR: Data Documentation
+
+## Documentation tools
+
+Documentation is vital to making your work understandable, which is, in turn, necessary for your work to be reusable. Documentation is important not only for data, but for your projects in general, including the code you write. Your documentation should provide context for your project and its data and should, for example, provide information about the data collection, structure, and ownership.
+
+In the next video we will talk about different methods and tools you can use to document projects, datasets, and code. We will also briefly talk about metadata.
+
+-   [04-2_Module-4_Video_Presentation_DataDocumentation](https://surfdrive.surf.nl/files/index.php/s/Y1ylaZYL1R3VPbR) (*12 minutes*, audio will play automatically in full presentation mode)
+-   [Read more about README files](https://estherplomp.github.io/TNW-OS-support/posts/readme/)
+    -   [Cornell template for a ReadMe file](https://cornell.app.box.com/v/ReadmeTemplate).
+-   Data Dictionaries for tabular data (Watch a [video on data dictionaries](https://www.youtube.com/watch?v=Fe3i9qyqPjo))
+-   [Create a package for your data with Frictionless Data](https://create.frictionlessdata.io)
+
+## (Electronic) Lab Notebooks
+
+Some labs make use of [Electronic Lab Notebooks](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-elns) to manage data. Ideally everyone is using the same solution. The Turing Way presents an [overview of some of resources that are available](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-elns#resources-for-choosing-elns) to help you make a choice, or you can use the [ELN finder](https://eln-finder.ulb.tu-darmstadt.de/home).
+
+There are also electronic notes such as:
+
+-   OneNote
+-   [Obsidian](https://obsidian.md/) (or [logseq](https://logseq.com/))
+
+## Paper Lab Notebooks
+
+In case you prefer to stick to paper, here are some organisation tips:
+
+-   State the name of the researcher and period of use on the cover of the notebook
+-   Number all pages consecutively
+-   All entries should be written with permanent ink (no pencils)
+-   Standard language should be English
+-   Each record requires a date
+-   Make sure that it is possible to separate the different experiments recorded (use meaningful titles)
+-   Add a note where the raw data linked to the experiment will be stored and the name of the corresponding data file
+-   Do not keep loose pages in your notebook. Fix to the notebook any relevant piece of paper and/or picture in a proper way
+
+Make sure you scan your paper notebook so that you have a back up copy!
+
+## Software/code documentation
+
+-   See the [example used in the presentation using JupyterLab](https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo)
+-   [Template to set up a GitHub (or GitLab) repository with all the relevant documentation about the project](https://github.com/manuGil/fair-code)
+-   [Code Refinery materials on Code Documentation](https://coderefinery.github.io/documentation/)
+-   Use the [CodeMeta creator](https://codemeta.github.io/codemeta-generator/) to create a .json metadata file to add to your repo
+-   Barbara Vreede's presentation on [Best Practices for Writing Reproducible Code](https://bvreede.github.io/presentations/presentations/2020-09-17_BestPractices-lecture.html#1)
+-   [Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki)
+-   [Aim For Understandability If You Want To Write Good Research Software](https://www.software.ac.uk/blog/2022-07-04-aim-understandability-if-you-want-write-good-research-software)
+-   For Julia you can use [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/) to create consistent folder structures. Particularly useful for simulation data.
+
+# Realising FAIR: Data Publication
+
+## Data access
+
+It is important to reflect about data access at the beginning of your project to ensure that the right people have access to the right data.
+
+One way to make the data of your project Findable and Accessible to a broad audience is to publish it in a **data repository**. Data repositories help you comply with the FAIR principles and make it easy to apply some of their main elements, such as **licences** and **persistent identifiers**.
+
+[![The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.](https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/DOI.jpg){width="50%"}](https://doi.org/10.5281/zenodo.3332807)
+
+In the next video we will delve into data access during and after a research project. You will also be introduced to the topic of data publication and data repositories.
+
+-   [04-3_Module-4_Video_Presentation_DataAccess_DataPublication](https://drive.google.com/file/d/1y9JfKBlvCExdYjxvNIHV9uGBvHsCO9w1/view?usp=share_link) (*15 minutes*)
+
+If you would like to look for a disciplinary specific data repository, you can use:
+
+-   [re3data.org](https://www.re3data.org/)
+-   [fairsharing.org](https://fairsharing.org/)
+
+Data repositories will facilitate sustainable access to your data. For more information, watch this short video on '[Sustainability of data use](https://www.youtube.com/watch?v=bhI1SF_r_K8)' (from the Open Data Governance and Use - released under the CC-BY-NC-SA 4.0 license)
+
+## Data/Software Articles
+
+You can also share your data and code via a **data or software article**.
+
+-   The Turing Way hosts a [List of data journals](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-article), with the following ecology journals:
+    -   [Ecological Research](https://esj-journals.onlinelibrary.wiley.com/hub/journal/14401703/homepage/forauthors)
+    -   [Global Ecology and Biogeography](https://onlinelibrary.wiley.com/page/journal/14668238/homepage/forauthors.html)
+-   [In which journal should I publish my software?](https://www.software.ac.uk/which-journals-should-i-publish-my-software)
+    -   for example: the [Journal of Open Source Software (JOSS)](https://joss.theoj.org/)
+
+## Software Sharing
+
+Just sharing software via platforms like GitHub is not sufficient to adhere to the FAIR principles. GitHub/GitLab does not assign a persistent identifier/DOI to the software, and GitHub/GitLab does not have a long term preservation policy like data repositories do. You can share your software on GitHub/GitLab and share a snapshot/version of the code in a data repository as well.
+
+-   See [here for more information between the GitHub/Zenodo integration](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+
+Checkout [papers with code](https://paperswithcode.com/) to see how other researchers have shared their code!
+
+## Why not the supplemental materials?
+
+-   **Data control**: supplementary materials are managed by the publisher and cannot be updated, unlike most data repositories that use versioning
+-   **Interoperability**: supplementary materials do not always allow the original format, which makes it difficult to integrate and interact with the data
+-   **Availability**: It is difficult to access if the article is behind the paywall (supplemental materials are not included in the DOI and therefore the links can also break!)
+-   **Impact**: Data should be a primary research output!
+-   **Publisher requirements**: Some publishers recommend using a data repository instead
+-   **Not FAIR**: Data/Software available in supplemental materials is not considered to be FAIR (Findable, Accessible, Interoperable, Resuable)
+
+See also: [The Push to Replace Journal Supplements with Repositories](https://www.the-scientist.com/news-opinion/the-push-to-replace-journal-supplements-with-repositories--66296)
+
+## References

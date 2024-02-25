@@ -4,8 +4,6 @@ title: "Introduction"
 
 # Introduction {#intro}
 
-*Estimated time: 15 minutes*
-
 This course provides PhD candidates with the essential knowledge and the core skills to manage research data according to best practice. You will be able to integrate good data management practices within your workflow from the beginning of your projects. The application of this knowledge to your research will allow you to reflect on how to work efficiently and in a reproducible manner with your research data, while complying with funders and institutional requirements.
 
 ## Relevant dates:
@@ -37,18 +35,18 @@ If at any point you're confronted with undesirable behaviour, please reach out t
 
 ## In person session
 
-<table style="width:100%;">
+<table style="width:98%;">
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 10%" />
 <col style="width: 9%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
 </colgroup>
 <thead>
 <tr class="header">

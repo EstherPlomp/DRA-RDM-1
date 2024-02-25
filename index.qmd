@@ -6,10 +6,9 @@ about:
   image: img/welcome.jpg
 ---
 
+*The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: \[10.5281/zenodo.3332807\]*
 
-*The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807]*
-
-This website is an adaptation of the [Research Data Management 101 Course](https://www.tudelft.nl/en/library/research-data-management/r/training-events/training-for-researchers/research-data-management-101) provided by TU Delft Library. 
+This website is an adaptation of the [Research Data Management 101 Course](https://www.tudelft.nl/en/library/research-data-management/r/training-events/training-for-researchers/research-data-management-101) provided by TU Delft Library.
 
 This course provides PhD candidates with the essential knowledge and the core skills to manage research data according to best practice. Learners will be able to integrate good data management practices within their workflows from the beginning of their projects. The application of this knowledge to their research will allow them to reflect on how to work efficiently and in a reproducible manner with their research data, while complying with funders and institutional requirements.
 

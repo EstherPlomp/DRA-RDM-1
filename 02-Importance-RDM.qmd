@@ -5,7 +5,7 @@ bibliography: references.bib
 
 # The importance of RDM {#importance}
 
-*Estimated time: 70 minutes*
+*Estimated time: 60-70 minutes*
 
 At the end of this module you should be able to:
 

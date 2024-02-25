@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RDM 101 - Introduction</title>
+<title>RDM 101 - Next</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -85,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./01-Introduction.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./01-Introduction.html" rel="" target="">
  <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
@@ -121,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">DMP</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./10-Next.html" rel="" target="">
+    <a class="nav-link active" href="./10-Next.html" rel="" target="" aria-current="page">
  <span class="menu-text">Next</span></a>
   </li>  
 </ul>
@@ -141,12 +160,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro">Introduction</a>
+  <li><a href="#plan" id="toc-plan" class="nav-link active" data-scroll-target="#plan">What to do after this workshop?</a>
   <ul class="collapse">
-  <li><a href="#relevant-dates" id="toc-relevant-dates" class="nav-link" data-scroll-target="#relevant-dates">Relevant dates:</a></li>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives:</a></li>
-  <li><a href="#code-of-conduct" id="toc-code-of-conduct" class="nav-link" data-scroll-target="#code-of-conduct">Code of Conduct</a></li>
-  <li><a href="#in-person-session" id="toc-in-person-session" class="nav-link" data-scroll-target="#in-person-session">In person session</a></li>
+  <li><a href="#frequently-asked-questions-about-reproducible-research-in-archaeology" id="toc-frequently-asked-questions-about-reproducible-research-in-archaeology" class="nav-link" data-scroll-target="#frequently-asked-questions-about-reproducible-research-in-archaeology">Frequently asked questions about reproducible research (in archaeology)</a>
+  <ul class="collapse">
+  <li><a href="#resources-on-data-management" id="toc-resources-on-data-management" class="nav-link" data-scroll-target="#resources-on-data-management">Resources on data management</a></li>
+  <li><a href="#resources-on-code-management" id="toc-resources-on-code-management" class="nav-link" data-scroll-target="#resources-on-code-management">Resources on code management</a></li>
+  <li><a href="#resources-on-data-sharing" id="toc-resources-on-data-sharing" class="nav-link" data-scroll-target="#resources-on-data-sharing">Resources on data sharing</a></li>
+  <li><a href="#resources-on-code-sharing" id="toc-resources-on-code-sharing" class="nav-link" data-scroll-target="#resources-on-code-sharing">Resources on code sharing</a></li>
+  <li><a href="#videos-on-reproducibility" id="toc-videos-on-reproducibility" class="nav-link" data-scroll-target="#videos-on-reproducibility"><strong>Videos on reproducibility</strong></a></li>
+  <li><a href="#other-resources-on-reproducibility" id="toc-other-resources-on-reproducibility" class="nav-link" data-scroll-target="#other-resources-on-reproducibility"><strong>Other resources on reproducibility</strong></a></li>
+  <li><a href="#how-to-get-started-with-programming" id="toc-how-to-get-started-with-programming" class="nav-link" data-scroll-target="#how-to-get-started-with-programming"><strong>How to get started with programming?</strong></a></li>
+  <li><a href="#publishing" id="toc-publishing" class="nav-link" data-scroll-target="#publishing"><strong>Publishing</strong></a></li>
+  <li><a href="#open-science" id="toc-open-science" class="nav-link" data-scroll-target="#open-science"><strong>Open Science</strong></a></li>
+  </ul></li>
+  <li><a href="#bioimage-check-survey" id="toc-bioimage-check-survey" class="nav-link" data-scroll-target="#bioimage-check-survey">BioImage (check survey)</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -156,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction</h1>
+<h1 class="title">Next</h1>
 </div>
 
 
@@ -171,830 +200,107 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="intro" class="level1">
-<h1>Introduction</h1>
-<p>This course provides PhD candidates with the essential knowledge and the core skills to manage research data according to best practice. You will be able to integrate good data management practices within your workflow from the beginning of your projects. The application of this knowledge to your research will allow you to reflect on how to work efficiently and in a reproducible manner with your research data, while complying with funders and institutional requirements.</p>
-<section id="relevant-dates" class="level2">
-<h2 class="anchored" data-anchor-id="relevant-dates">Relevant dates:</h2>
-<p><strong>Course start:</strong> 21 February (Survey + Importance of RDM)</p>
-<p><strong>In person session:</strong> 29 February</p>
-</section>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives:</h2>
-<p>After completing this course, you will be able to:</p>
+<section id="plan" class="level1">
+<h1>What to do after this workshop?</h1>
+<p><a href="https://the-turing-way.netlify.app/welcome.html">The Turing Way</a> also has a chapter on <a href="https://the-turing-way.netlify.app/reproducible-research/rdm.html">Research Data Management</a> - and a lot more information on how to <strong>work more reproducible</strong>.</p>
+<section id="frequently-asked-questions-about-reproducible-research-in-archaeology" class="level2">
+<h2 class="anchored" data-anchor-id="frequently-asked-questions-about-reproducible-research-in-archaeology">Frequently asked questions about reproducible research (in archaeology)</h2>
+<p>You can find answers to the questions below in <span class="citation" data-cites="marwick2022">(<a href="#ref-marwick2022" role="doc-biblioref">Marwick 2022</a>)</span>, p20.</p>
 <ul>
-<li><p>Realise the important role that good data management plays in research</p></li>
-<li><p>Identify different types of research data and recognise the regulations, policies and/or legal requirements associated with them.</p></li>
-<li><p>List the main components of the FAIR data principles and connect them to your own research workflows.</p></li>
-<li><p>Employ the acquired knowledge to design an efficient research data management strategy for your projects according to best practices.</p></li>
+<li>How do you decide if you should publish data and/or code openly?</li>
+<li>Where do you start training skills in open science and reproducibility?</li>
+<li>What should you consider when you publish an article with underlying data/code?</li>
+<li>How do you share data to make it more accessible to others?</li>
+<li>How do you clean up the data and code before sharing this publicly?</li>
+<li>How do you share research methods more openly?</li>
+<li>What is metadata?</li>
+<li>What about licenses/copyright?</li>
+<li>What if people misinterpret data or find a mistake?</li>
+<li>A supervisor doesn’t want to work reproducibility, how do you convince them?</li>
+<li>Will reproducible research be taken into account when looking for a next job?</li>
+<li>Do platforms like SciHub, ResearchGate, Academia.edu count as Open Access?</li>
+</ul>
+<p><a href="https://linktr.ee/sortecoevo">SORTEE</a></p>
+<section id="resources-on-data-management" class="level3">
+<h3 class="anchored" data-anchor-id="resources-on-data-management">Resources on data management</h3>
+<ul>
+<li><p><a href="https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Data-Management-2019.pdf">A guide to Data Management in Ecology and Evolution by the British Ecological Society</a></p></li>
+<li><p><a href="https://doi.org/10.1002/1873-3468.14067">Sharing biological data: why, when, and how</a></p></li>
+<li><p><a href="https://osf.io/zqbu2">Reproducible Bioinformatics Research for Biologists</a>’ (for people with wetlab lives!)</p></li>
 </ul>
 </section>
-<section id="code-of-conduct" class="level2">
-<h2 class="anchored" data-anchor-id="code-of-conduct">Code of Conduct</h2>
+<section id="resources-on-code-management" class="level3">
+<h3 class="anchored" data-anchor-id="resources-on-code-management">Resources on code management</h3>
 <ul>
-<li>Everyone is learning, including instructors - please have patience and respect towards each other!</li>
-<li>Use welcoming and inclusive language when interacting with your peers and instructors</li>
-<li>Be respectful of different viewpoints and experiences</li>
-<li>Provide and gracefully accept constructive criticism</li>
+<li><p><a href="https://datacarpentry.org/R-ecology-lesson/">Data Analysis and Visualisation in R for Ecologists</a></p></li>
+<li><p><a href="https://sinews.siam.org/Details-Page/top-ten-reasons-to-not-share-your-code-and-why-you-should-anyway">Top ten reasons to not <strong>share your code</strong> (and why you should anyway)</a></p></li>
+<li><p><a href="https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf">A guide to Reproducible Code by the British Ecological Society</a></p></li>
 </ul>
-<p>If at any point you’re confronted with undesirable behaviour, please reach out to the trainer or Francisca.</p>
 </section>
-<section id="in-person-session" class="level2">
-<h2 class="anchored" data-anchor-id="in-person-session">In person session</h2>
+<section id="resources-on-data-sharing" class="level3">
+<h3 class="anchored" data-anchor-id="resources-on-data-sharing">Resources on data sharing</h3>
+</section>
+<section id="resources-on-code-sharing" class="level3">
+<h3 class="anchored" data-anchor-id="resources-on-code-sharing">Resources on code sharing</h3>
+</section>
+<section id="videos-on-reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="videos-on-reproducibility"><strong>Videos on reproducibility</strong></h3>
+<ul>
+<li><p>‘<a href="https://www.youtube.com/watch?v=XjW3t-qXAiE&amp;">Towards a Culture of Computational Reproducibility</a>’</p></li>
+<li><p>‘<a href="https://www.youtube.com/watch?v=rNQ-RlG3JnQ">Steps towards reproducible research</a>’</p></li>
+<li><p><a href="https://www.workcast.com/ControlUsher.aspx?cpak=8232371292435174&amp;pak=7279159888532687">How to make your research reproducible?</a> (requires you to register to watch on demand)</p></li>
+<li><p><a href="https://www.youtube.com/playlist?list=PLqTOVbRSdsARz1idHT3KkG1Z5xJeIoULk">SORTEE 2021 Plenary Presentations</a></p></li>
+</ul>
+</section>
+<section id="other-resources-on-reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="other-resources-on-reproducibility"><strong>Other resources on reproducibility</strong></h3>
+<ul>
+<li><p><a href="https://doi.org/10.1002/bes2.1801">A Beginner’s Guide to Conducting Reproducible Research</a></p></li>
+<li><p><a href="https://doi.org/10.1371/journal.pone.0200303">Questionable research practices in ecology and evolution</a></p></li>
+<li><p><a href="https://www.nature.com/articles/d42473-019-00004-y">Six factors affecting reproducibility in life science research and how to handle them</a></p></li>
+<li><p>Podcast episode <a href="https://open.spotify.com/episode/1OVxFUA5UyIfMSCd842wjD?si=tEhJzufDROmOqsvJHsUPuw">‘Reproducible data science, how hard can it be?’</a></p></li>
+<li><p><a href="https://doi.org/10.1038/s41559-017-0434-x">Genotypic variability enhances the reproducibility of an ecological study</a></p></li>
+</ul>
+</section>
+<section id="how-to-get-started-with-programming" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-get-started-with-programming"><strong>How to get started with programming?</strong></h3>
+<ul>
+<li><p><a href="https://www.software.ac.uk/blog/2021-11-05-resources-using-spreadsheets-research-and-moving-other-tools">Resources for using spreadsheets in research and moving to other tools</a></p></li>
+<li><p><a href="https://www.dataquest.io/blog/9-reasons-excel-users-should-consider-learning-programming/">9 Reasons Excel Users Should Consider Learning Programming</a></p></li>
+<li><p><a href="https://www.software.ac.uk/blog/2021-11-11-training-resources-researchers-want-learn-code">Training resources for researchers who want to code</a></p></li>
+<li><p><a href="https://www.software.ac.uk/blog/2021-11-04-top-tips-start-coding-academia">Top Tips to Start Coding in Academia</a></p></li>
+</ul>
+</section>
+<section id="publishing" class="level3">
+<h3 class="anchored" data-anchor-id="publishing"><strong>Publishing</strong></h3>
+<ul>
+<li><a href="https://ecology.peercommunityin.org/">Peer Community in Ecology</a></li>
+</ul>
+</section>
+<section id="open-science" class="level3">
+<h3 class="anchored" data-anchor-id="open-science"><strong>Open Science</strong></h3>
+<ul>
+<li>You can follow the <a href="https://openscience101.org">Open Science 101 materials</a> set up by NASA on your own pace, or apply to one of the future OLS programme to <a href="https://openlifesci.org/nasa/">participate in a 6 week cohort with mentoring</a>.</li>
+</ul>
+</section>
+</section>
+<section id="bioimage-check-survey" class="level2">
+<h2 class="anchored" data-anchor-id="bioimage-check-survey">BioImage (check survey)</h2>
+<p>For <strong>bioimage analysis</strong> needs visit <a href="https://forum.image.sc/">forum.image.sc</a>, or visit <a href="https://bio.tools/">bio.tools</a> for tools relevant to <strong>bioinformatics</strong> and life sciences.</p>
+</section>
+<section id="references" class="level2">
 
-<table class="table">
-<colgroup>
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>
-<p>
-Topic
-</p>
-</th>
-<th>
-<p>
-Time (s)
-</p>
-</th>
-<th>
-<p>
-Time (e)
-</p>
-</th>
-<th>
-<p>
-Duraction
-</p>
-</th>
-<th>
-<p>
-Comments?
-</p>
-</th>
-<th>
-<p>
-</p>
-</th>
-<th>
-<p>
-</p>
-</th>
-<th>
-<p>
-</p>
-</th>
-<th>
-<p>
-</p>
-</th>
-<th>
-<p>
-</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>
-<p>
-Introductions
-</p>
-</td>
-<td>
-<p>
-9:00
-</p>
-</td>
-<td>
-<p>
-9:20
-</p>
-</td>
-<td>
-<p>
-20 min
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-Why is RDM important
-</p>
-</td>
-<td>
-<p>
-9:20
-</p>
-</td>
-<td>
-<p>
-9:40
-</p>
-</td>
-<td>
-<p>
-20 min
-</p>
-</td>
-<td>
-<p>
-<strong>Discussion:</strong> Do you find the horror stories or the benefits more convincing? <br> Do you have a horror story to share?<br> What is your main challenge in Data Management?
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-<p>
-RDM essentials
-</p>
-</td>
-<td>
-<p>
-9:40
-</p>
-</td>
-<td>
-<p>
-10:10
-</p>
-</td>
-<td>
-<p>
-30 min
-</p>
-</td>
-<td>
-<p>
-<strong>Discussion:</strong> what is your challenge? (15 min)
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-Break
-</p>
-</td>
-<td>
-<p>
-10:10
-</p>
-</td>
-<td>
-<p>
-10:35
-</p>
-</td>
-<td>
-<p>
-15 min
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-<p>
-FAIR principles
-</p>
-</td>
-<td>
-<p>
-10:35
-</p>
-</td>
-<td>
-<p>
-10:45
-</p>
-</td>
-<td>
-<p>
-10 min
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-FAIR: licences
-</p>
-</td>
-<td>
-<p>
-10:45
-</p>
-</td>
-<td>
-<p>
-11:00
-</p>
-</td>
-<td>
-<p>
-15 min
-</p>
-</td>
-<td>
-<p>
-<strong>Exercise:</strong> choose a license
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-<p>
-FAIR: organisation
-</p>
-</td>
-<td>
-<p>
-11:00
-</p>
-</td>
-<td>
-<p>
-11:30
-</p>
-</td>
-<td>
-<p>
-30 min
-</p>
-</td>
-<td>
-<p>
-<strong>Exercise</strong>: look at data organisation/naming and what to improve
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-Questions?
-</p>
-</td>
-<td>
-<p>
-11:30
-</p>
-</td>
-<td>
-<p>
-11:45
-</p>
-</td>
-<td>
-<p>
-15 min
-</p>
-</td>
-<td>
-<p>
-If no questions, discuss what challenges are left to address.
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-<p>
-Lunch
-</p>
-</td>
-<td>
-<p>
-12:00
-</p>
-</td>
-<td>
-<p>
-13:00
-</p>
-</td>
-<td>
-<p>
-60 min
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-FAIR: documentation
-</p>
-</td>
-<td>
-<p>
-13:00
-</p>
-</td>
-<td>
-<p>
-13:40
-</p>
-</td>
-<td>
-<p>
-40 min
-</p>
-</td>
-<td>
-<p>
-<strong>Exercise:</strong> set up a readme file and check with someone else
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-<p>
-FAIR: publication
-</p>
-</td>
-<td>
-<p>
-13:40
-</p>
-</td>
-<td>
-<p>
-14:10
-</p>
-</td>
-<td>
-<p>
-30 min
-</p>
-</td>
-<td>
-<p>
-<strong>Exercise:</strong> Check which data repository or data/software journal to use - at the end summarise which data repositories/journals are used
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-Break
-</p>
-</td>
-<td>
-<p>
-14:10
-</p>
-</td>
-<td>
-<p>
-14:25
-</p>
-</td>
-<td>
-<p>
-15 min
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-<p>
-Setting up your DMP
-</p>
-</td>
-<td>
-<p>
-14:25
-</p>
-</td>
-<td>
-<p>
-15:25
-</p>
-</td>
-<td>
-<p>
-60 min
-</p>
-</td>
-<td>
-<p>
-<strong>Exercise</strong>: use ERC template to set up the plan
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-Break
-</p>
-</td>
-<td>
-<p>
-15:25
-</p>
-</td>
-<td>
-<p>
-15:45
-</p>
-</td>
-<td>
-<p>
-15 min
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-<p>
-Exchanging DMP
-</p>
-</td>
-<td>
-<p>
-15:45
-</p>
-</td>
-<td>
-<p>
-16:15
-</p>
-</td>
-<td>
-<p>
-30 min
-</p>
-</td>
-<td>
-<p>
-<strong>Exercise:</strong> Exchange DMP to receive feedback
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-Wrap up discussion
-</p>
-</td>
-<td>
-<p>
-16:15
-</p>
-</td>
-<td>
-<p>
-16:35
-</p>
-</td>
-<td>
-<p>
-20 min
-</p>
-</td>
-<td>
-<p>
-<strong>Discussion:</strong> What topic of the course challenged you the most? And why?<br> What theme challenged you the least because you were already implementing RDM best practices before this course? (If any)<br> What do you want to implement from the course?
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-<p>
-Wrap up
-</p>
-</td>
-<td>
-<p>
-16:35
-</p>
-</td>
-<td>
-<p>
-16:45
-</p>
-</td>
-<td>
-<p>
-10 min
-</p>
-</td>
-<td>
-<p>
-Summarise day<br> Ask feedback<br> Potential next steps
-</p>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="odd">
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class="even">
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-</tbody>
 
-</table>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-marwick2022" class="csl-entry" role="listitem">
+Marwick, Ben. 2022. <span>“Three Levels of Reproducible Workflow Remove Barriers for Archaeologists and Increase Accessibility.”</span> <em>Peer Community In Archaeology</em>, November. <a href="https://doi.org/10.24072/pci.archaeo.100022">https://doi.org/10.24072/pci.archaeo.100022</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

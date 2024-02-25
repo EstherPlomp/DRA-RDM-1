@@ -8,13 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - 01-introduction.qmd
+      - 01-Introduction.qmd
       - 02-Importance-RDM.qmd
-      - 03-essentials-RDM.qmd
-      - 04-policies.qmd
+      - 03-Essentials-RDM.qmd
+      - 04-Policies.qmd
       - 05-FAIR.qmd
-      - 06-DMP.qmd
-      - 07-Next.qmd
+      - 06-Organisation.qmd
+      - 07-Documentation.qmd
+      - 08-Publication.qmd
+      - 09-DMP.qmd
+      - 10-Next.qmd
     tools:
       - icon: github
         href: https://github.com/EstherPlomp/DRA-RDM-1
