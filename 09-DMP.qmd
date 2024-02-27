@@ -5,13 +5,11 @@ bibliography: references.bib
 
 # Plan for RDM {#plan}
 
-*Estimated time: 120 minutes*
-
 We will use the lessons learned to plan for Data Management via the Data Management Plan. At the end of this module you should be able to:
 
--   Recognize the relevance of planning research data management
+-   Recognise the relevance of planning research data management
 -   Get familiar with the concept of Data Management Plans and their format
--   Recognize the value of creating a Data Management Plan
+-   Recognise the value of creating a Data Management Plan
 
 ## What is a Data Management Plan (DMP)?
 
@@ -30,5 +28,9 @@ Why is it necessary to create a data management plan?
 -   You can use the DMP as a starting point for a common vocabulary for managing data when you work with multiple disciplines!
 
 ![The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).](https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/data-management-plan.jpg)
+
+## What needs to be in a Data Management Plan?
+
+A Data Management Plan should provide [information on six main topics](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html).
 
 ## References
