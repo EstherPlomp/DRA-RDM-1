@@ -94,15 +94,13 @@ For this reason, the [DFG expects research projects](www.dfg.de/proposal_process
 
 -   **Data underpinning the publications should be shared through a trusted repository at the time of publication.**
 
-<!-- -->
-
 -   Data is **in principle open**, unless restricted access is needed for legitimate reasons 
 
     -   Legitimate reasons: privacy, public security, ethical limitations, property rights and commercial interest.
 
 -   Data should be licensed using CC-BY or CC0 (or equivalent), and metadata should be CC0. 
 
-    -   For[CC-BY](https://creativecommons.org/licenses/by/4.0/) it means that others should cite the work when they reuse the data. 
+    -   For [CC-BY](https://creativecommons.org/licenses/by/4.0/) it means that others should cite the work when they reuse the data. 
 
     -   [CC0](https://creativecommons.org/publicdomain/zero/1.0/) waives any rights, with citation still being expected as this follows best scientific practises.
 

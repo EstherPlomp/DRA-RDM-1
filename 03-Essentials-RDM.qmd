@@ -5,8 +5,6 @@ bibliography: references.bib
 
 # Essentials for Research Data
 
-*Estimated time: 30 minutes*
-
 At the end of this module you should be able to:
 
 -   Identify different types of research data
@@ -16,7 +14,7 @@ At the end of this module you should be able to:
 
 ## Research Data definition
 
-Research data is any information that has been collected, observed, generated or created to validate research findings. Depending on the discipline you work in, research data can be collected or produced in different ways. You can capture them in real-time (e.g. sensors, images), you can collect them using laboratory instruments and they can derive from interviews or numerical simulations, among others. Research Data can be digital such as tabular data, videos, algorithms, scripts, transcripts, and codebooks. They can also be non-digital, for example, laboratory samples, sketchbooks, and prototypes.
+Research data is any information that has been collected, observed, generated or created to validate research findings. Depending on the discipline you work in, research data can be collected or produced in different ways. You can capture them in real-time (sensors, images), you can collect them using laboratory instruments and they can derive from interviews or numerical simulations, among others. Research Data can be digital such as tabular data, videos, algorithms, scripts, transcripts, and codebooks. They can also be non-digital, for example, laboratory samples, sketchbooks, and prototypes.
 
 ## Research Data in ecology
 
@@ -24,7 +22,7 @@ Research data is any information that has been collected, observed, generated or
 Ecological systems are dynamic and heterogeneous, interacting with numerous factors that sculpt natural history and that investigators cannot completely control. Observations may be highly dependent on spatial and temporal context, making them very difficult to reproduce, but computational reproducibility can still be achieved. [@powers2018]
 :::
 
-User-friendly tools such as Kepler or VisTrails help document provenance, and Morpho provides an easy way to create standardized, machine-readable metadata using the Ecological Metadata Language (EML).
+User-friendly tools such as Kepler or VisTrails help document provenance, and Morpho provides an easy way to create standardized, machine-readable metadata using the [Ecological Metadata Language](https://eml.ecoinformatics.org/) (EML).
 
 [@tulloch2018]: [A decision tree for assessing the risks and benefits of publishing biodiversity data](10.1038/s41559-018-0608-1)
 

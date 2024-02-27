@@ -32,16 +32,6 @@ Preserve data and code that are:
 
 -   You may need to **way up the costs** between collecting the data again versus making the data FAIR and storing it
 
-## Benefits
-
--   Transparency and reproducibility boost trustworthiness
-
--   Articles with open data have higher citations
-
--   May save time and resources in the long term, increasing efficiency
-
--   Funder/institution/journal requirements can be fulfilled
-
 ## Search for a disciplinary specific data repository
 
 If you would like to look for a disciplinary specific data repository, you can use:
