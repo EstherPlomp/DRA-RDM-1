@@ -33,19 +33,7 @@ If at any point you're confronted with undesirable behaviour, please reach out t
 
 ## In person session
 
-<table style="width:79%;">
-<colgroup>
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-</colgroup>
+<table>
 <thead>
 <tr class="header">
 <th><p>Topic</p></th>

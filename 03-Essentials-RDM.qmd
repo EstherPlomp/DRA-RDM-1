@@ -3,7 +3,7 @@ title: "RDM Essentials"
 bibliography: references.bib
 ---
 
-# Essentials for Research Data 
+# Essentials for Research Data
 
 *Estimated time: 30 minutes*
 
@@ -42,9 +42,9 @@ There are multiple types of confidential data that you might be working with dur
 -   Data which could lead to reputation/brand damage (climate change, personal information, animal research)
 -   Politically-sensitive data (such as research commissioned by public authorities, research on societal issues)
 
-When working with confidential data, you need additional security measures for your data to make sure that they are not accidentally released. You may need to sign a Non Disclosure Agreement (NDA), while also ensuring that you can publish the results after review.
+When working with confidential data, you need additional security measures for your data to make sure that they are not accidentally released. You may need to sign a Non Disclosure Agreement (NDA), while also ensuring that you can publish the results after review. If you work with confidential data, it may not be possible to publicly share all your research results! Plan for this in advance so that you can share what is possible, or work with restricted access to still adhere to the FAIR principles.
 
-## Personal Data 
+## Personal Data
 
 Only read these materials if you work with personal data (data that can identify a person)
 

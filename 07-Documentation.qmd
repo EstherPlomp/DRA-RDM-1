@@ -5,17 +5,90 @@ bibliography: references.bib
 
 # Realising FAIR: Data Documentation
 
+In this module, we will discover the FAIR data principles and their main elements as they relate to documentation:
+
+-   Recognise the relevance of documentation and be familiar with diverse tools to document data
+
 ## Documentation tools
 
 Documentation is vital to making your work understandable, which is, in turn, necessary for your work to be reusable. Documentation is important not only for data, but for your projects in general, including the code you write. Your documentation should provide context for your project and its data and should, for example, provide information about the data collection, structure, and ownership.
 
-In the next video we will talk about different methods and tools you can use to document projects, datasets, and code. We will also briefly talk about metadata.
+Documentation can be a description of the process (how the data was collected), a description of the data (metadata or data about data), or data provenance (data ownership/history).
 
--   [04-2_Module-4_Video_Presentation_DataDocumentation](https://surfdrive.surf.nl/files/index.php/s/Y1ylaZYL1R3VPbR) (*12 minutes*, audio will play automatically in full presentation mode)
+## README files
+
+Write README files in an open format such as .txt or .md (Markdown)
+
+Make it clear what the README file is documenting: if you’re using it to document a project, place the README file in the root folder, or if it’s documenting a file, add the name of that file to the title of the README file. It’s also a good idea to add this information in the text of the README file.
+
+Structure it with defined sections
+
+-   General information
+
+-   Methodological information
+
+-   Sharing and access information
+
+Tip: take some time to create a template that you can re-use with multiple projects, datasets or files!
+
+-   [Summary video](https://surfdrive.surf.nl/files/index.php/s/Y1ylaZYL1R3VPbR) of *12 minutes*, audio will play automatically in full presentation mode)
 -   [Read more about README files](https://estherplomp.github.io/TNW-OS-support/posts/readme/)
     -   [Cornell template for a ReadMe file](https://cornell.app.box.com/v/ReadmeTemplate).
+
+## Data Dictonaries / Code Books (tabular data)
+
+Codebooks are used to explain variables in tabular data.
+
+Should include
+
+-   Variable name
+
+-   Variable explanation
+
+-   Level explanation, esp. for categorical and ordinal
+
+-   Measurement unit
+
+-   Allowed values
+
+-   How missing information is coded
+
+If possible, use standard names for variables!
+
 -   Data Dictionaries for tabular data (Watch a [video on data dictionaries](https://www.youtube.com/watch?v=Fe3i9qyqPjo))
--   [Create a package for your data with Frictionless Data](https://create.frictionlessdata.io)
+-   [Using a data dictionary as your roadmap to quality data](https://cghlewis.com/blog/data_dictionary/)
+-   [Generating Codebooks to Ensure the Independent Use of Research Data](https://doi.org/10.1027/1015-5759/a000620)
+
+## Git
+
+-   [Git](https://git-scm.com/) is software to keep track of different versions of your files: a mini file-system taking ‘snapshots’ of your files.
+
+-   You add comments to keep track of the changes.
+
+-   If you ever break your file, you can go back to one of the old snapshots of the file – one that worked!
+
+-   Although git is mostly used to version control scripts (code), it can be used effectively with all plain text files.
+
+-   Git isn’t great for (big) binary files: images, videos, word files.
+
+## GitHub / GitLab
+
+-   Git is great for keeping track of locally stored files, but these can be hard for others to access!
+
+-   [GitHub](https://github.com/) and [GitLab](https://about.gitlab.com/) are web-based tools for working collaboratively on your version-controlled files.
+
+-   Both GitHub and GitLab provide free options:
+
+    -   GitHub offers free private repositories to academics.
+
+    -   GitLab offers private repositories where you can control who has access by default
+
+[Template to set up a GitHub (or GitLab) repository with all the relevant documentation about the project](https://github.com/manuGil/fair-code)
+
+## Tools to add metadata
+
+-   Data: [Create a package for your data with Frictionless Data](https://create.frictionlessdata.io)
+-   Code: [CodeMeta generator from Software Heritage](https://codemeta.github.io/codemeta-generator/)
 
 ## (Electronic) Lab Notebooks
 
@@ -48,9 +121,7 @@ Make sure you scan/digitise your paper notebook so that you have a back up copy!
 ## Software/code documentation
 
 -   See the [example used in the presentation using JupyterLab](https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo)
--   [Template to set up a GitHub (or GitLab) repository with all the relevant documentation about the project](https://github.com/manuGil/fair-code)
 -   [Code Refinery materials on Code Documentation](https://coderefinery.github.io/documentation/)
--   Use the [CodeMeta creator](https://codemeta.github.io/codemeta-generator/) to create a .json metadata file to add to your repo
 -   Barbara Vreede's presentation on [Best Practices for Writing Reproducible Code](https://bvreede.github.io/presentations/presentations/2020-09-17_BestPractices-lecture.html#1)
 -   [Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki)
 -   [Aim For Understandability If You Want To Write Good Research Software](https://www.software.ac.uk/blog/2022-07-04-aim-understandability-if-you-want-write-good-research-software)

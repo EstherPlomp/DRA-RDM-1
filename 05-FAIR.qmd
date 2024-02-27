@@ -8,11 +8,8 @@ bibliography: references.bib
 In this module, we will discover the FAIR data principles and their main elements. At the end of this module, you should be able to:
 
 -   Understand the FAIR principles and their relation to RDM
+
 -   Identify the license that fits your research output
--   Understand the importance of good data organisation and be aware of best practices around data organisation
--   Recognize the relevance of documentation and be familiar with diverse tools to document data
--   Identify relevant tools to advance towards FAIR data
--   Discuss data publication, best practices and restrictions
 
 ## What are the FAIR principles?
 
@@ -63,7 +60,7 @@ Ecological Society of America journals have a [data policy](https://www.esa.org/
 
 -   
 
-## Test how aware of FAIR you are 
+## Test how aware of FAIR you are
 
 ![Use the [FAIR-Aware tool](https://fairaware.dans.knaw.nl/) to test your knowledge about the FAIR principles](https://fairaware.dans.knaw.nl/images/logos/fairaware.png){width="75%"}
 

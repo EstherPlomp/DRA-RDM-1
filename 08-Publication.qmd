@@ -5,13 +5,44 @@ bibliography: references.bib
 
 # Realising FAIR: Data Publication
 
-One way to make the data of your project Findable and Accessible to a broad audience is to publish it in a **data repository**. Data repositories help you comply with the FAIR principles and make it easy to apply some of their main elements, such as **licences** and **persistent identifiers**.
+In this module, we will discover the FAIR data principles and their main elements as they relate to data publication:
+
+-   Identify relevant tools to advance towards FAIR data
+-   Discuss data publication, best practices and restrictions
+
+## Data Repository
+
+One way to make the data of your project Findable and Accessible to a broad audience is to publish it in a **data repository**. Data repositories help you comply with the FAIR principles and make it easy to apply some of their main elements, such as **licences** and **persistent identifiers**. You share data for the long-term in a data repository: generally these are finalised datasets or scripts.
+
+-   Always discuss with your supervisor/collaborators what data/code to share on data repositories!
+
+-   See The Turing Way on how to [select an appropriate data repository](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-repository#selecting-an-appropriate-repository)
 
 [![The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.](https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/main/book/website/figures/DOI.jpg){width="50%"}](https://doi.org/10.5281/zenodo.3332807)
 
-In the next video we will delve into data access during and after a research project. You will also be introduced to the topic of data publication and data repositories.
+## Selecting what data and code to preserve
 
--   [04-3_Module-4_Video_Presentation_DataAccess_DataPublication](https://drive.google.com/file/d/1y9JfKBlvCExdYjxvNIHV9uGBvHsCO9w1/view?usp=share_link) (*15 minutes*)
+Preserve data and code that are:
+
+-   Needed to **verify findings** you have published in a paper (see also journal/university requirements)
+
+-   **Important** (taking into account the quality, originality, size, scale and innovative nature of the research)
+
+-   **Unique** (based on non-repeatable observations)
+
+-   You may need to **way up the costs** between collecting the data again versus making the data FAIR and storing it
+
+## Benefits
+
+-   Transparency and reproducibility boost trustworthiness
+
+-   Articles with open data have higher citations
+
+-   May save time and resources in the long term, increasing efficiency
+
+-   Funder/institution/journal requirements can be fulfilled
+
+## Search for a disciplinary specific data repository
 
 If you would like to look for a disciplinary specific data repository, you can use:
 

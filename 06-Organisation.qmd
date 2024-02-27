@@ -5,6 +5,10 @@ bibliography: references.bib
 
 # Realising FAIR: Data organisation
 
+In this module, we will discover the FAIR data principles and their main elements as they relate to organisation:
+
+-   Understand the importance of good data organisation and be aware of best practices around data organisation
+
 ## Data Organisation
 
 Good data organisation will allow you to make the data Findable both for yourself and for your collaborators who have access to the data. Implementing a good folder structure, data organisation and a meaningful file naming convention is a simple first step towards making data FAIR.
@@ -15,9 +19,11 @@ Good data organisation will allow you to make the data Findable both for yoursel
 
 To organise your files it is good to set up a folder structure and choose a file naming convention.
 
-## Hierarchical folder structure 
+## Hierarchical folder structure
 
-List the types of data in your project and fit them into categories. These can be by file type, time period, collection method, project, or instrument
+List the types of data in your project and fit them into categories. These can be by file type, time period, collection method, project, or instrument.
+
+![](images/clipboard-3091370281.png)
 
 -   Avoid overlapping categories/names
 
@@ -39,7 +45,7 @@ A [research compendium](https://doi.org/10.7287/peerj.preprints.3192v2) combines
 
 You can find [more information about Research Compendia in The Turing Way.](https://the-turing-way.netlify.app/reproducible-research/compendia.html)
 
-![The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/research-compendium.svg){alt="The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807" width="63%"}
+![The Turing Way illustration by Scriberia. CC-BY 4.0. DOI: 10.5281/zenodo.3332807](https://the-turing-way.netlify.app/_images/research-compendium.svg){width="63%"}
 
 ## Tagging files
 

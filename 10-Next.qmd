@@ -42,11 +42,17 @@ You can find answers to the questions below in [@marwick2022], p20.
 
 -   [A guide to Reproducible Code by the British Ecological Society](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
 
+-   Beginner: [Carpentry workshops](https://carpentries.org/)
+
+-   Intermediate: [CodeRefinery](https://coderefinery.org/)
+
 ### Resources on data sharing
+
+-   [Steps To Share Your Data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-sharing#steps-to-share-your-data)
 
 ### Resources on code sharing
 
-### **Videos on reproducibility**
+### Videos on reproducibility
 
 -   ‘[Towards a Culture of Computational Reproducibility](https://www.youtube.com/watch?v=XjW3t-qXAiE&)’
 
@@ -56,7 +62,7 @@ You can find answers to the questions below in [@marwick2022], p20.
 
 -   [SORTEE 2021 Plenary Presentations](https://www.youtube.com/playlist?list=PLqTOVbRSdsARz1idHT3KkG1Z5xJeIoULk)
 
-### **Other resources on reproducibility**
+### Other resources on reproducibility
 
 -   [A Beginner’s Guide to Conducting Reproducible Research](https://doi.org/10.1002/bes2.1801)
 
@@ -68,7 +74,7 @@ You can find answers to the questions below in [@marwick2022], p20.
 
 -   [Genotypic variability enhances the reproducibility of an ecological study](https://doi.org/10.1038/s41559-017-0434-x)
 
-### **How to get started with programming?**
+### How to get started with programming?
 
 -   [Resources for using spreadsheets in research and moving to other tools](https://www.software.ac.uk/blog/2021-11-05-resources-using-spreadsheets-research-and-moving-other-tools)
 
@@ -78,13 +84,14 @@ You can find answers to the questions below in [@marwick2022], p20.
 
 -   [Top Tips to Start Coding in Academia](https://www.software.ac.uk/blog/2021-11-04-top-tips-start-coding-academia)
 
-### **Publishing**
+### Publishing
 
 -   [Peer Community in Ecology](https://ecology.peercommunityin.org/)
 
-### **Open Science**
+### Open Science
 
 -   You can follow the [Open Science 101 materials](https://openscience101.org) set up by NASA on your own pace, or apply to one of the future OLS programme to [participate in a 6 week cohort with mentoring](https://openlifesci.org/nasa/).
+-   [Max Planck Open Science Ambassadors](https://osambassadors.mpdl.mpg.de/)
 
 ## BioImage (check survey)
 
