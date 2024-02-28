@@ -125,6 +125,6 @@ Make sure you scan/digitise your paper notebook so that you have a back up copy!
 -   Barbara Vreede's presentation on [Best Practices for Writing Reproducible Code](https://bvreede.github.io/presentations/presentations/2020-09-17_BestPractices-lecture.html#1)
 -   [Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki)
 -   [Aim For Understandability If You Want To Write Good Research Software](https://www.software.ac.uk/blog/2022-07-04-aim-understandability-if-you-want-write-good-research-software)
--   For Julia you can use [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/) to create consistent folder structures. Particularly useful for simulation data.
+-   For Julia you can use [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/) to create consistent folder structures. Particularly useful for simulation data
 
 ## References

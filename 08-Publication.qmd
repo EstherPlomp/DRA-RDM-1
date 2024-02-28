@@ -38,6 +38,10 @@ If you would like to look for a disciplinary specific data repository, you can u
 
 -   [re3data.org](https://www.re3data.org/)
 -   [fairsharing.org](https://fairsharing.org/)
+-   [NIH list of discipline specific data repositories](https://www.nlm.nih.gov/NIHbmic/domain_specific_repositories.html)
+-   [Springer Nature: Recommended Data Repositories](https://www.springernature.com/gp/authors/research-data-policy/recommended-repositories)
+-   [Google Dataset search](https://datasetsearch.research.google.com/)
+-   Data availability statements in publications
 
 Data repositories will facilitate sustainable access to your data. For more information, watch this short video on '[Sustainability of data use](https://www.youtube.com/watch?v=bhI1SF_r_K8)' (from the Open Data Governance and Use - released under the CC-BY-NC-SA 4.0 license)
 

@@ -33,4 +33,14 @@ Why is it necessary to create a data management plan?
 
 A Data Management Plan should provide [information on six main topics](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html).
 
+## [RDMO](https://rdmo.mpdl.mpg.de/) (Research Data Management Organiser)
+
+-   You can use it to write DMPs, organise data management for a project
+
+-   collaborate with other users (also external)
+
+-   Versioning
+
+-   Export and import functions
+
 ## References

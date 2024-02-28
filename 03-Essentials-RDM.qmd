@@ -8,7 +8,7 @@ bibliography: references.bib
 At the end of this module you should be able to:
 
 -   Identify different types of research data
--   Recognize what is considered confidential data in research
+-   Recognise what is considered confidential data in research
 -   Realise what RDM entails within a research project
 -   Store and back up the research data of your project in a secure manner
 
@@ -44,7 +44,7 @@ When working with confidential data, you need additional security measures for y
 
 ## Personal Data
 
-Only read these materials if you work with personal data (data that can identify a person)
+Only read these materials if you work with personal data (data that can identify a person):
 
 -   [Legal and Ethical Aspects](https://rdm.mpdl.mpg.de/before-research/legal-and-ethical-aspects/) (RDM for MPDL)
 -   [Personal data management - The Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-personal.html)
